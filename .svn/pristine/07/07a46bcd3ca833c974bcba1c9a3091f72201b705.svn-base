@@ -1,0 +1,2888 @@
+---------------------------------------------------------------
+
+[2020-03-17T10:09:07+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.158919s] [吞吐率：6.29req/s] [内存消耗：2,920.51kb] [文件加载：71]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003364s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.032987s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid` FROM `hope_system_menu` [ RunTime:0.000886s ]
+[ error ] [0]致命错误: Class 'Core\Utils\Category' not found[D:\webroot\semclientcmsv3.1\application\admin\controller\Index.php:15]
+---------------------------------------------------------------
+
+[2020-03-17T10:09:29+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.108147s] [吞吐率：9.25req/s] [内存消耗：2,920.50kb] [文件加载：71]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001962s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.032313s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid` FROM `hope_system_menu` [ RunTime:0.000887s ]
+[ error ] [0]致命错误: Class 'core\utils\Category' not found[D:\webroot\semclientcmsv3.1\application\admin\controller\Index.php:15]
+---------------------------------------------------------------
+
+[2020-03-17T10:09:37+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.120993s] [吞吐率：8.26req/s] [内存消耗：2,920.53kb] [文件加载：71]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001340s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031094s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid` FROM `hope_system_menu` [ RunTime:0.000605s ]
+[ error ] [0]致命错误: Class 'app\core\utils\Category' not found[D:\webroot\semclientcmsv3.1\application\admin\controller\Index.php:15]
+---------------------------------------------------------------
+
+[2020-03-17T10:16:22+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.134660s] [吞吐率：7.43req/s] [内存消耗：2,920.55kb] [文件加载：71]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003384s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031357s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid` FROM `hope_system_menu` [ RunTime:0.000577s ]
+[ error ] [0]致命错误: Class 'app\admin\controller\Category' not found[D:\webroot\semclientcmsv3.1\application\admin\controller\Index.php:14]
+---------------------------------------------------------------
+
+[2020-03-17T10:17:23+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.183705s] [吞吐率：5.44req/s] [内存消耗：2,906.13kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003039s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.030030s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid` FROM `hope_system_menu` [ RunTime:0.000523s ]
+---------------------------------------------------------------
+
+[2020-03-17T10:40:00+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.254679s] [吞吐率：3.93req/s] [内存消耗：2,915.45kb] [文件加载：73]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001393s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.030125s ]
+[ error ] [10501]SQLSTATE[42S22]: Column not found: 1054 Unknown column 'name' in 'field list'[D:\webroot\semclientcmsv3.1\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-03-17T10:40:07+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.105136s] [吞吐率：9.51req/s] [内存消耗：3,013.81kb] [文件加载：73]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001528s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031115s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000780s ]
+[ error ] [8]未定义变量: res[D:\webroot\semclientcmsv3.1\application\admin\controller\Index.php:14]
+---------------------------------------------------------------
+
+[2020-03-17T10:43:31+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.201684s] [吞吐率：4.96req/s] [内存消耗：2,934.16kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005033s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.073015s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000765s ]
+[ error ] [8]未定义变量: res[D:\webroot\semclientcmsv3.1\application\admin\controller\Index.php:13]
+---------------------------------------------------------------
+
+[2020-03-17T10:43:53+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.172521s] [吞吐率：5.80req/s] [内存消耗：3,212.27kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001205s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.048114s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000542s ]
+---------------------------------------------------------------
+
+[2020-03-17T10:43:55+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.058032s] [吞吐率：17.23req/s] [内存消耗：2,108.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T10:43:56+08:00] 127.0.0.1 GET 5139.com/page/template/user-info.html
+[运行时间：0.042624s] [吞吐率：23.46req/s] [内存消耗：1,444.32kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T10:44:24+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.140339s] [吞吐率：7.13req/s] [内存消耗：3,244.33kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001205s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.030513s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000837s ]
+---------------------------------------------------------------
+
+[2020-03-17T10:44:25+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.103195s] [吞吐率：9.69req/s] [内存消耗：1,932.07kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T10:44:26+08:00] 127.0.0.1 GET 5139.com/page/template/user-info.html
+[运行时间：0.044186s] [吞吐率：22.63req/s] [内存消耗：1,444.32kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T10:51:19+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.150914s] [吞吐率：6.63req/s] [内存消耗：2,902.58kb] [文件加载：69]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003737s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031838s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000550s ]
+---------------------------------------------------------------
+
+[2020-03-17T10:51:38+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.103057s] [吞吐率：9.70req/s] [内存消耗：2,918.29kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001298s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.029651s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000568s ]
+---------------------------------------------------------------
+
+[2020-03-17T10:55:01+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.266786s] [吞吐率：3.75req/s] [内存消耗：3,268.17kb] [文件加载：77]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001576s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.124066s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000656s ]
+[ error ] [8]未定义数组索引: children[D:\webroot\semclientcmsv3.1\runtime\temp\79504e40adfc3f035928b9bb528ef665.php:215]
+---------------------------------------------------------------
+
+[2020-03-17T10:55:24+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.126345s] [吞吐率：7.91req/s] [内存消耗：3,112.38kb] [文件加载：76]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001265s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.032107s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000935s ]
+[ error ] [8]未定义数组索引: children[D:\webroot\semclientcmsv3.1\runtime\temp\79504e40adfc3f035928b9bb528ef665.php:215]
+---------------------------------------------------------------
+
+[2020-03-17T10:55:35+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.126606s] [吞吐率：7.90req/s] [内存消耗：2,918.29kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001203s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.032953s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.002539s ]
+---------------------------------------------------------------
+
+[2020-03-17T10:57:40+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.157591s] [吞吐率：6.35req/s] [内存消耗：3,267.95kb] [文件加载：76]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001499s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.035795s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000540s ]
+[ error ] [0]致命错误: Call to undefined function array_key_exist()[D:\webroot\semclientcmsv3.1\runtime\temp\79504e40adfc3f035928b9bb528ef665.php:211]
+---------------------------------------------------------------
+
+[2020-03-17T10:58:17+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.124668s] [吞吐率：8.02req/s] [内存消耗：3,269.48kb] [文件加载：77]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001226s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.032119s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000571s ]
+[ error ] [2]Use of undefined constant data - assumed 'data' (this will throw an Error in a future version of PHP)[D:\webroot\semclientcmsv3.1\runtime\temp\79504e40adfc3f035928b9bb528ef665.php:211]
+---------------------------------------------------------------
+
+[2020-03-17T10:58:31+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.135032s] [吞吐率：7.41req/s] [内存消耗：3,269.42kb] [文件加载：77]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005504s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.039845s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000980s ]
+[ error ] [2]array_key_exists() expects exactly 2 parameters, 1 given[D:\webroot\semclientcmsv3.1\runtime\temp\79504e40adfc3f035928b9bb528ef665.php:211]
+---------------------------------------------------------------
+
+[2020-03-17T10:58:57+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.175818s] [吞吐率：5.69req/s] [内存消耗：3,269.45kb] [文件加载：77]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002748s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.048219s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000587s ]
+[ error ] [2]array_key_exists(): The first argument should be either a string or an integer[D:\webroot\semclientcmsv3.1\runtime\temp\79504e40adfc3f035928b9bb528ef665.php:211]
+---------------------------------------------------------------
+
+[2020-03-17T10:59:47+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.132598s] [吞吐率：7.54req/s] [内存消耗：3,273.25kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001316s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031109s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000551s ]
+---------------------------------------------------------------
+
+[2020-03-17T10:59:48+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.079057s] [吞吐率：12.65req/s] [内存消耗：1,932.07kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T10:59:49+08:00] 127.0.0.1 GET 5139.com/page/template/user-info.html
+[运行时间：0.053700s] [吞吐率：18.62req/s] [内存消耗：1,444.32kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T11:20:53+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.159627s] [吞吐率：6.26req/s] [内存消耗：2,906.84kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002172s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.041545s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000398s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:20:53+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.069454s] [吞吐率：14.40req/s] [内存消耗：1,932.07kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:23:05+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.178016s] [吞吐率：5.62req/s] [内存消耗：2,907.70kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.004980s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.030463s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu` FROM `hope_system_menu` [ RunTime:0.000444s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:23:05+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.107489s] [吞吐率：9.30req/s] [内存消耗：1,932.07kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:31:06+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.168710s] [吞吐率：5.93req/s] [内存消耗：3,133.84kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001574s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.053881s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000834s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:31:07+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.070625s] [吞吐率：14.16req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:31:44+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.125333s] [吞吐率：7.98req/s] [内存消耗：3,134.07kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005117s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.034014s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000490s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:31:44+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.104577s] [吞吐率：9.56req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:32:07+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.122639s] [吞吐率：8.15req/s] [内存消耗：2,910.18kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001542s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.030022s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000451s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:32:08+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.075283s] [吞吐率：13.28req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:32:17+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.081019s] [吞吐率：12.34req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:32:51+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.104401s] [吞吐率：9.58req/s] [内存消耗：2,910.18kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001212s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.030084s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000870s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:32:52+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.064436s] [吞吐率：15.52req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:32:52+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.558969s] [吞吐率：1.79req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:32:58+08:00] 127.0.0.1 GET 5139.com/system.menu/index
+[运行时间：0.083128s] [吞吐率：12.03req/s] [内存消耗：1,444.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T11:33:55+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.226770s] [吞吐率：4.41req/s] [内存消耗：2,910.18kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001539s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.104856s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.001790s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:33:56+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.076721s] [吞吐率：13.03req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:33:56+08:00] 127.0.0.1 GET 5139.com/system.menu/index
+[运行时间：0.147064s] [吞吐率：6.80req/s] [内存消耗：1,444.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T11:33:57+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.229877s] [吞吐率：4.35req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:34:02+08:00] 127.0.0.1 GET 5139.com/admin/index/system/menu/index
+[运行时间：0.057868s] [吞吐率：17.28req/s] [内存消耗：1,945.92kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'menu' => 'index',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:35:34+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.157413s] [吞吐率：6.35req/s] [内存消耗：2,910.18kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001896s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.039251s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000538s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:35:34+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.141979s] [吞吐率：7.04req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:35:35+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.070713s] [吞吐率：14.14req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:35:36+08:00] 127.0.0.1 GET 5139.com/admin/index/system/menu/index
+[运行时间：0.061401s] [吞吐率：16.29req/s] [内存消耗：1,945.92kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'menu' => 'index',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:35:37+08:00] 127.0.0.1 GET 5139.com/system.menu/index
+[运行时间：0.222758s] [吞吐率：4.49req/s] [内存消耗：1,444.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T11:40:25+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.153857s] [吞吐率：6.50req/s] [内存消耗：2,910.18kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003679s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031060s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000447s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:40:25+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.074239s] [吞吐率：13.47req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:40:25+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.197720s] [吞吐率：5.06req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:40:26+08:00] 127.0.0.1 GET 5139.com/system.menu/index
+[运行时间：0.051531s] [吞吐率：19.41req/s] [内存消耗：1,444.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T11:40:26+08:00] 127.0.0.1 GET 5139.com/admin/index/system/menu/index
+[运行时间：0.062159s] [吞吐率：16.09req/s] [内存消耗：1,945.92kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'menu' => 'index',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:41:14+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.072993s] [吞吐率：13.70req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:41:35+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.163486s] [吞吐率：6.12req/s] [内存消耗：3,134.12kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.010470s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031702s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000567s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:41:36+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.074468s] [吞吐率：13.43req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:41:36+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.070361s] [吞吐率：14.21req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:41:47+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.075166s] [吞吐率：13.30req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:46:14+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.147035s] [吞吐率：6.80req/s] [内存消耗：3,134.00kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001261s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.037071s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000456s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:46:15+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.205440s] [吞吐率：4.87req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:46:15+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.278139s] [吞吐率：3.60req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:46:25+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.067065s] [吞吐率：14.91req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:48:26+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.202922s] [吞吐率：4.93req/s] [内存消耗：2,910.18kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001434s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031659s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000445s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:48:26+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.157441s] [吞吐率：6.35req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:48:26+08:00] 127.0.0.1 GET 5139.com/admin/index/system.menu/index
+[运行时间：0.143226s] [吞吐率：6.98req/s] [内存消耗：1,945.82kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:48:48+08:00] 127.0.0.1 GET 5139.com/admin/index/system/menu/index
+[运行时间：0.079410s] [吞吐率：12.59req/s] [内存消耗：1,945.92kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'menu' => 'index',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:49:54+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.129273s] [吞吐率：7.74req/s] [内存消耗：3,134.00kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002461s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.033327s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.001597s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:49:54+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.069938s] [吞吐率：14.30req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:49:54+08:00] 127.0.0.1 GET 5139.com/admin/index/system/menu/index
+[运行时间：0.140602s] [吞吐率：7.11req/s] [内存消耗：1,945.92kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'menu' => 'index',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:50:05+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/dialog.html
+[运行时间：0.069356s] [吞吐率：14.42req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'dialog',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:50:07+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/syxm.html
+[运行时间：0.118916s] [吞吐率：8.41req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'syxm',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:50:08+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/fullcalendar1.html
+[运行时间：0.091601s] [吞吐率：10.92req/s] [内存消耗：1,946.18kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'fullcalendar1',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:50:09+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/form.html
+[运行时间：0.094456s] [吞吐率：10.59req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'form',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:50:49+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/file.html
+[运行时间：0.122544s] [吞吐率：8.16req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'file',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:50:50+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/table-crud.html
+[运行时间：0.108080s] [吞吐率：9.25req/s] [内存消耗：1,946.04kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'table-crud',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:50:51+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/side-more.html
+[运行时间：0.096346s] [吞吐率：10.38req/s] [内存消耗：1,946.04kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'side-more',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:14+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.128554s] [吞吐率：7.78req/s] [内存消耗：2,910.18kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001322s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031301s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000624s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:52:15+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.070195s] [吞吐率：14.25req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:52:15+08:00] 127.0.0.1 GET 5139.com/admin/index/system/menu/index
+[运行时间：0.457166s] [吞吐率：2.19req/s] [内存消耗：1,945.92kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'menu' => 'index',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:15+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/dialog.html
+[运行时间：0.499573s] [吞吐率：2.00req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'dialog',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:16+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/table-crud.html
+[运行时间：0.075127s] [吞吐率：13.31req/s] [内存消耗：1,946.04kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'table-crud',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:16+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/syxm.html
+[运行时间：0.068016s] [吞吐率：14.70req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'syxm',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:16+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/fullcalendar1.html
+[运行时间：0.069868s] [吞吐率：14.31req/s] [内存消耗：1,946.18kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'fullcalendar1',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:16+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/form.html
+[运行时间：0.089744s] [吞吐率：11.14req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'form',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:18+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/file.html
+[运行时间：0.526021s] [吞吐率：1.90req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'file',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:21+08:00] 127.0.0.1 GET 5139.com/system.menu/index
+[运行时间：0.057958s] [吞吐率：17.25req/s] [内存消耗：1,444.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T11:52:40+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.142012s] [吞吐率：7.04req/s] [内存消耗：2,910.19kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001363s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.066130s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000539s ]
+---------------------------------------------------------------
+
+[2020-03-17T11:52:41+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.068502s] [吞吐率：14.60req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:52:41+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/dialog.html
+[运行时间：0.067227s] [吞吐率：14.88req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'dialog',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:42+08:00] 127.0.0.1 GET 5139.com/admin/index/system/menu/index
+[运行时间：0.334488s] [吞吐率：2.99req/s] [内存消耗：1,945.92kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'menu' => 'index',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:42+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/fullcalendar1.html
+[运行时间：0.067787s] [吞吐率：14.75req/s] [内存消耗：1,946.18kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'fullcalendar1',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:42+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/syxm.html
+[运行时间：0.453600s] [吞吐率：2.20req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'syxm',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:42+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/file.html
+[运行时间：0.428017s] [吞吐率：2.34req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'file',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:42+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/form.html
+[运行时间：0.484694s] [吞吐率：2.06req/s] [内存消耗：1,946.02kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'form',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:43+08:00] 127.0.0.1 GET 5139.com/system.menu/index
+[运行时间：0.042371s] [吞吐率：23.60req/s] [内存消耗：1,444.24kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T11:52:43+08:00] 127.0.0.1 GET 5139.com/admin/index/page/example/table-crud.html
+[运行时间：0.070573s] [吞吐率：14.17req/s] [内存消耗：1,946.04kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'example' => 'table-crud',
+)
+---------------------------------------------------------------
+
+[2020-03-17T11:52:48+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.130812s] [吞吐率：7.64req/s] [内存消耗：1,951.78kb] [文件加载：67]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]模板文件不存在:D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html[D:\webroot\semclientcmsv3.1\thinkphp\library\think\view\driver\Think.php:86]
+---------------------------------------------------------------
+
+[2020-03-17T11:53:34+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.068341s] [吞吐率：14.63req/s] [内存消耗：2,030.33kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T11:53:40+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.077934s] [吞吐率：12.83req/s] [内存消耗：1,894.06kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T14:33:31+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.270728s] [吞吐率：3.69req/s] [内存消耗：3,134.01kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.016239s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.062898s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000539s ]
+---------------------------------------------------------------
+
+[2020-03-17T14:33:33+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.857513s] [吞吐率：1.17req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T14:33:33+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.685421s] [吞吐率：1.46req/s] [内存消耗：2,065.94kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T14:33:37+08:00] 127.0.0.1 GET 5139.com/json/authorities.json
+[运行时间：0.070798s] [吞吐率：14.12req/s] [内存消耗：1,444.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T14:33:49+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.191109s] [吞吐率：5.23req/s] [内存消耗：3,134.01kb] [文件加载：72]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001492s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.031918s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.001177s ]
+---------------------------------------------------------------
+
+[2020-03-17T14:33:50+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.217928s] [吞吐率：4.59req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T14:33:50+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.433559s] [吞吐率：2.31req/s] [内存消耗：1,906.00kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T14:33:52+08:00] 127.0.0.1 GET 5139.com/json/authorities.json
+[运行时间：0.053391s] [吞吐率：18.73req/s] [内存消耗：1,444.20kb] [文件加载：53]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T15:58:39+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.198137s] [吞吐率：5.05req/s] [内存消耗：2,910.35kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002121s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.032361s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.002244s ]
+---------------------------------------------------------------
+
+[2020-03-17T15:58:40+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.075235s] [吞吐率：13.29req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T15:58:41+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.640326s] [吞吐率：1.56req/s] [内存消耗：2,066.59kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T15:58:43+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/lists
+[运行时间：0.074212s] [吞吐率：13.47req/s] [内存消耗：1,943.63kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+
+[2020-03-17T15:59:39+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.236867s] [吞吐率：4.22req/s] [内存消耗：2,910.35kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002123s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.030074s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000423s ]
+---------------------------------------------------------------
+
+[2020-03-17T15:59:40+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.075776s] [吞吐率：13.20req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T15:59:40+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.135602s] [吞吐率：7.37req/s] [内存消耗：2,066.63kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T15:59:42+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/lists
+[运行时间：0.085604s] [吞吐率：11.68req/s] [内存消耗：1,946.45kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'think\Model\Menu' not found[D:\webroot\semclientcmsv3.1\application\admin\controller\system\Menu.php:20]
+---------------------------------------------------------------
+
+[2020-03-17T16:00:14+08:00] 127.0.0.1 GET 5139.com/admin/index/
+[运行时间：0.182753s] [吞吐率：5.47req/s] [内存消耗：2,910.35kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002347s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.029303s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`paixu`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.000491s ]
+---------------------------------------------------------------
+
+[2020-03-17T16:00:15+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.065840s] [吞吐率：15.19req/s] [内存消耗：1,932.10kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T16:00:15+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.069687s] [吞吐率：14.35req/s] [内存消耗：1,906.59kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T16:00:17+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/lists
+[运行时间：0.074689s] [吞吐率：13.39req/s] [内存消耗：1,946.45kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]致命错误: Class 'think\Model\Menu' not found[D:\webroot\semclientcmsv3.1\application\admin\controller\system\Menu.php:20]
+---------------------------------------------------------------
+
+[2020-03-17T16:03:32+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.274273s] [吞吐率：3.65req/s] [内存消耗：1,906.80kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T16:03:33+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/lists
+[运行时间：0.068559s] [吞吐率：14.59req/s] [内存消耗：1,946.54kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[D:\webroot\semclientcmsv3.1\application\admin\model\Menu.php:13]
+---------------------------------------------------------------
+
+[2020-03-17T16:03:53+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.065797s] [吞吐率：15.20req/s] [内存消耗：1,906.80kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T16:03:54+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/lists
+[运行时间：0.072030s] [吞吐率：13.88req/s] [内存消耗：1,946.54kb] [文件加载：66]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]语法解析错误: syntax error, unexpected 'return' (T_RETURN)[D:\webroot\semclientcmsv3.1\application\admin\model\Menu.php:13]
+---------------------------------------------------------------
+
+[2020-03-17T16:04:09+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.078545s] [吞吐率：12.73req/s] [内存消耗：1,906.80kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T16:04:10+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/lists
+[运行时间：0.305436s] [吞吐率：3.27req/s] [内存消耗：2,300.53kb] [文件加载：75]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [8192]Non-static method app\admin\model\Menu::lists() should not be called statically[D:\webroot\semclientcmsv3.1\application\admin\controller\system\Menu.php:20]
+---------------------------------------------------------------
+
+[2020-03-17T16:05:22+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.137481s] [吞吐率：7.27req/s] [内存消耗：1,906.80kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T16:05:23+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/lists
+[运行时间：0.312623s] [吞吐率：3.20req/s] [内存消耗：3,241.09kb] [文件加载：81]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006885s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ error ] [10501]SQLSTATE[42S02]: Base table or view not found: 1146 Table 'v3admin.hope_menu' doesn't exist[D:\webroot\semclientcmsv3.1\thinkphp\library\think\db\Connection.php:687]
+---------------------------------------------------------------
+
+[2020-03-17T16:06:33+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/index
+[运行时间：0.203698s] [吞吐率：4.91req/s] [内存消耗：1,906.80kb] [文件加载：64]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T16:06:33+08:00] 127.0.0.1 GET 5139.com/admin/system.menu/lists
+[运行时间：0.296167s] [吞吐率：3.38req/s] [内存消耗：3,278.24kb] [文件加载：79]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=458215424; pgv_si=s3297392640',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.menu/index',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => '*/*',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005212s ] mysql:host=127.0.0.1;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.088782s ]
+[ sql ] [ SQL ] SELECT * FROM `hope_system_menu` WHERE  `is_check` = 1 ORDER BY `weigh` DESC [ RunTime:0.026673s ]

@@ -1,0 +1,212 @@
+{layout name="layout" /}
+
+<body>
+<!-- 页面加载loading -->
+<div class="page-loading">
+    <div class="ball-loader">
+        <span></span><span></span><span></span><span></span>
+    </div>
+</div>
+<!-- 正文开始 -->
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <!-- 表格工具栏 -->
+            <form class="layui-form toolbar">
+                <div class="layui-form-item">
+                	<div class="layui-inline">
+                        <button id="categoryAddBtn" class="layui-btn icon-btn" type="button">
+                            <i class="layui-icon">&#xe654;</i>添加
+                        </button>
+                    </div>
+                    <div class="layui-inline">
+                        <label class="layui-form-label">分类名称:</label>
+                        <div class="layui-input-inline">
+                            <input name="category" class="layui-input" placeholder="输入分类名称"/>
+                        </div>
+                    </div>
+                    <div class="layui-inline">&emsp;
+                        <button class="layui-btn icon-btn" lay-filter="categoryTbSearch" lay-submit>
+                            <i class="layui-icon">&#xe615;</i>搜索
+                        </button>
+                    </div>
+                </div>
+            </form>
+            <!-- 数据表格 -->
+            <table id="categoryTable"></table>
+        </div>
+    </div>
+</div>
+
+<!-- 表格操作列 -->
+<script type="text/html" id="checkboxTpl">
+    <input type="checkbox" name="is_check" value="{{d.id}}" lay-skin="primary" lay-filter="ischeckSwitch" {{ d.is_check == 1 ? 'checked' : '' }}>
+</script>
+<script type="text/html" id="categoryTbBar">
+    <a class="layui-btn layui-btn-primary layui-btn-xs" lay-event="edit">修改</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+<!-- 表单弹窗 -->
+
+<!-- js部分 -->
+<script type="text/javascript" src="../../assets/libs/layui/layui.js"></script>
+<script type="text/javascript" src="../../assets/js/common.js?v=317"></script>
+<script>
+    layui.use(['layer', 'form', 'admin', 'treeTable', 'util', 'xmSelect'], function () {
+        var $ = layui.jquery;
+        var layer = layui.layer;
+        var form = layui.form;
+        var admin = layui.admin;
+        var treeTable = layui.treeTable;
+        var util = layui.util;
+        var xmSelect = layui.xmSelect;
+        var tbDataList = [];
+
+        // 渲染表格
+        var insTb = treeTable.render({
+            elem: '#categoryTable',
+            tree: {
+                iconIndex: 1,
+                idName: 'id',
+                pidName: 'parentid',
+                isPidData: true
+            },
+            cellMinWidth: 100,
+            cols: [
+                {type: 'checkbox'},
+                {field: 'category', title: '分类名称', width: 300},
+                {field: 'parentname', title: '父级分类'},
+                {field: 'urlname', title: '分类别名'},
+                {field: 'paixu', title: '排序号', align: 'center', width: 80},
+                {field: 'is_check', title: '状态', align: 'center', width: 100, templet:'#checkboxTpl'},
+                {field: 'addtime', title: '创建时间', align: 'center'},
+                {field: 'nofollow', title: 'nofollow', align: 'center'},
+                {title: '操作', templet: '#categoryTbBar', singleLine: false, align: 'center', width: 120}
+            ],
+            reqData: function (data, callback) {
+                $.get('{:url("admin/category.product/lists")}', function (res) {
+                    tbDataList = res.data ? res.data : [];
+                    callback(res.data);
+                });
+            }
+        });
+
+        /* 表格操作列点击事件 */
+        treeTable.on('tool(categoryTable)', function (obj) {
+            if (obj.event === 'edit') { // 修改
+                showEditModel(obj.data);
+            } else if (obj.event === 'del') { // 删除
+                doDel(obj);
+            }
+        });
+
+        /* 表格搜索 */
+        form.on('submit(categoryTbSearch)', function (data) {
+            doTbSearch(data.field, 'id');
+            return false;
+        });
+
+        /* 添加 */
+        $('#categoryAddBtn').click(function () {
+            showEditModel();
+        });
+
+        /* 显示表单弹窗 */
+        function showEditModel(mData) {
+            admin.open({
+                type: 1,
+                area: '600px',
+                title: (mData ? '修改' : '添加') + '权限',
+                url: '{:url("admin/category.product/form")}',
+                success: function (layero, dIndex) {
+                    // 回显表单数据
+                    form.val('categoryEditForm', mData);
+                    // 表单提交事件
+                    form.on('submit(categoryEditSubmit)', function (data) {
+                        data.field.parentid = insXmSel.getValue('valueStr');
+                        var loadIndex = layer.load(2);
+                        $.get(mData ? '../../json/ok.json' : '../../json/ok.json', data.field, function (res) {
+                            layer.close(loadIndex);
+                            if (res.code === 200) {
+                                layer.close(dIndex);
+                                layer.msg(res.msg, {icon: 1});
+                                insTb.refresh();
+                            } else {
+                                layer.msg(res.msg, {icon: 2});
+                            }
+                        }, 'json');
+                        return false;
+                    });
+                    // 渲染下拉树
+                    var insXmSel = xmSelect.render({
+                        el: '#categoryEditParentSel',
+                        height: '250px',
+                        data: insTb.options.data,
+                        initValue: mData ? [mData.parentId] : [],
+                        model: {label: {type: 'text'}},
+                        prop: {
+                            name: 'category',
+                            value: 'id'
+                        },
+                        radio: true,
+                        clickClose: true,
+                        tree: {
+                            show: true,
+                            indent: 15,
+                            strict: false,
+                            expandedKeys: true
+                        }
+                    });
+                    // 弹窗不出现滚动条
+                    $(layero).children('.layui-layer-content').css('overflow', 'visible');
+                }
+            });
+        }
+
+        /* 删除 */
+        function doDel(obj) {
+            layer.confirm('确定要删除“' + obj.data.authorityName + '”权限吗？', {
+                skin: 'layui-layer-admin',
+                shade: .1
+            }, function (i) {
+                layer.close(i);
+                var loadIndex = layer.load(2);
+                $.get('../../json/ok.json', {id: obj.data.authorityId}, function (res) {
+                    layer.close(loadIndex);
+                    if (res.code === 200) {
+                        layer.msg(res.msg, {icon: 1});
+                        insTb.refresh();
+                    } else {
+                        layer.msg(res.msg, {icon: 2});
+                    }
+                }, 'json');
+            });
+        }
+
+        /* 搜索表格数据 */
+        function doTbSearch(field, idName) {
+            var ids = [], isClear = true;
+            for (var i = 0; i < tbDataList.length; i++) {
+                var item = tbDataList[i], flag = true;
+                for (var f in field) {
+                    if (!field.hasOwnProperty(f)) continue;
+                    if (!field[f]) continue;
+                    isClear = false;
+                    if (!item[f] || item[f].indexOf(field[f]) === -1) {
+                        flag = false;
+                        break;
+                    }
+                }
+                if (flag) ids.push(item[idName]);
+            }
+            if (isClear) {
+                insTb.clearFilter();
+            } else {
+                insTb.filterData(ids);
+            }
+        }
+
+    });
+</script>
+</body>
+</html>

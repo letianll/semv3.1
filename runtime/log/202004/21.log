@@ -1,0 +1,519 @@
+---------------------------------------------------------------
+
+[2020-04-21T08:52:21+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.066573s] [吞吐率：15.02req/s] [内存消耗：1,918.29kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T08:55:33+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20181203/201812031021254593.jpg
+[运行时间：0.084555s] [吞吐率：11.83req/s] [内存消耗：1,918.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T08:55:36+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20181203/201812031021254593.jpg
+[运行时间：0.084581s] [吞吐率：11.82req/s] [内存消耗：1,918.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T08:59:30+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.067002s] [吞吐率：14.92req/s] [内存消耗：1,918.26kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T08:59:43+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.058873s] [吞吐率：16.99req/s] [内存消耗：1,918.31kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T09:12:05+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.062784s] [吞吐率：15.93req/s] [内存消耗：1,918.30kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T09:22:59+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.120729s] [吞吐率：8.28req/s] [内存消耗：1,918.30kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:23:48+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.085784s] [吞吐率：11.66req/s] [内存消耗：1,918.30kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:23:56+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.086656s] [吞吐率：11.54req/s] [内存消耗：1,918.30kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:29:21+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.103261s] [吞吐率：9.68req/s] [内存消耗：1,918.01kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:33:57+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.162605s] [吞吐率：6.15req/s] [内存消耗：1,918.26kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:34:07+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.067738s] [吞吐率：14.76req/s] [内存消耗：1,918.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:36:17+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.183255s] [吞吐率：5.46req/s] [内存消耗：1,918.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:36:19+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.064482s] [吞吐率：15.51req/s] [内存消耗：1,918.09kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:36:27+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20180613/20180613163622236.jpg
+[运行时间：0.061542s] [吞吐率：16.25req/s] [内存消耗：1,918.31kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:36:39+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20181203/201812031021254593.jpg
+[运行时间：0.068160s] [吞吐率：14.67req/s] [内存消耗：1,918.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T15:36:41+08:00] 127.0.0.1 GET kehu.ahch.cn/uploads/20181203/201812031021254593.jpg
+[运行时间：0.066695s] [吞吐率：14.99req/s] [内存消耗：1,918.07kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T17:35:03+08:00] 127.0.0.1 POST 5139.com/admin/system.config/
+[运行时间：0.298447s] [吞吐率：3.35req/s] [内存消耗：2,678.95kb] [文件加载：67]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.config/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://5139.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '2266',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'base_comname' => '12345',
+  'base_contact' => '0',
+  'base_tel' => 'WATER_NORTHWEST',
+  'base_fax' => '',
+  'base_mobile' => '50',
+  'base_qq' => '563848851',
+  'base_email' => '呼啦啦，呼啦啦，呕！',
+  'base_postcode' => '20',
+  'base_provice' => '安徽省',
+  'base_city' => '六安市',
+  'base_area' => '金安区',
+  'base_address' => '小村子',
+  'top_logo_url' => 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4150802370,1902002068&fm=11&gp=0.jpg',
+  'top_ico_url' => 'https://wimg.588ku.com/gif620/20/02/29/e30fbfbbe82316216e3e26039c51c8d9.gif',
+  'top_qrcode_url' => '/uploads/attach/2020/03/24/5e79784f0e1b0.png',
+  'top_domain' => '',
+  'top_slogan' => '50',
+  'top_saletel' => '18899998888',
+  'bot_license_url' => 'https://wimg.588ku.com/gif620/19/07/09/e1dc8b0106ec27cf237ed59d65891423.gif',
+  'bot_support' => '希望科技',
+  'bot_support_url' => 'http://www.baidu.com',
+  'bot_icp' => '12345',
+  'bot_icp_url' => 'http://www.qq.com',
+  'bot_police' => 'gongan',
+  'bot_police_url' => 'http://www.12345.com',
+  'bot_copyrights' => '<p><a target="_black" href="https://wimg.588ku.com/gif620/19/07/09/e1dc8b0106ec27cf237ed59d65891423.gif">营业执照</a>&nbsp;&nbsp;<a target="_black" href="http://www.baidu.com">希望科技</a>&nbsp;&nbsp;<a target="_black" href="http://www.qq.com">1233</a>&nbsp;&nbsp;<a target="_black" href="http://www.12345.com">gongan</a>&nbsp; &nbsp;12345&nbsp; &#39;31131233&#39;</p>',
+  'plus_receive_phone' => '18899998888',
+  'plus_copy_on' => 'on',
+  'plus_message_on' => '0',
+  'plus_gps' => '***',
+  'plus_phone_number' => '13388885555',
+  'plus_fgf' => '|',
+  'plus_article_page' => '12',
+  'plus_product_page' => '12',
+  'plus_gallery_page' => '1',
+  'plus_job_page' => '2',
+  'plus_downloads_page' => '12',
+  'meta_meta' => '222',
+  'meta_js' => '11',
+  'water_is_on' => 'on',
+  'water_position' => '9',
+  'water_type' => '1',
+  'water_image_imageurl' => '/uploads/attach/2020/04/20/5e9d1b67e0612.jpg',
+  'water_image_opcity' => '20',
+  'water_font_txt' => '呼啦啦，呼啦啦，呕！',
+  'water_font_angle' => '90',
+  'water_font_family' => 'HYQingKongTiJ.ttf',
+  'water_font_size' => '15',
+  'water_font_color' => '#111000',
+)
+---------------------------------------------------------------
+
+[2020-04-21T17:35:05+08:00] 127.0.0.1 GET 5139.com/admin/system.config/index.html
+[运行时间：0.171876s] [吞吐率：5.82req/s] [内存消耗：2,635.51kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.config/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\config\index.html [ array (
+  0 => 'config',
+) ]
+---------------------------------------------------------------
+
+[2020-04-21T17:35:05+08:00] 127.0.0.1 GET 5139.com/uploads/attach/2020/03/24/5e79784f0e1b0.png
+[运行时间：0.067192s] [吞吐率：14.88req/s] [内存消耗：1,918.47kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T17:35:06+08:00] 127.0.0.1 GET 5139.com/uploads/attach/2020/03/24/5e79784f0e1b0.png
+[运行时间：0.068631s] [吞吐率：14.57req/s] [内存消耗：1,918.47kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T17:35:39+08:00] 127.0.0.1 POST 5139.com/admin/system.config/doRemoveWater
+[运行时间：21.194851s] [吞吐率：0.05req/s] [内存消耗：3,801.49kb] [文件加载：75]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.config/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://5139.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[D:\webroot\semclientcmsv3.1\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+
+[2020-04-21T17:36:15+08:00] 127.0.0.1 GET 5139.com/admin/index/index.html
+[运行时间：21.283985s] [吞吐率：0.05req/s] [内存消耗：4,278.52kb] [文件加载：83]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[D:\webroot\semclientcmsv3.1\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+
+[2020-04-21T17:38:41+08:00] 127.0.0.1 GET 5139.com/admin/index/index.html
+[运行时间：21.138738s] [吞吐率：0.05req/s] [内存消耗：4,278.09kb] [文件加载：83]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=1',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2002]SQLSTATE[HY000] [2002] �������ӷ���һ��ʱ���û����ȷ�𸴻����ӵ�����û�з�Ӧ�����ӳ���ʧ�ܡ�
+[D:\webroot\semclientcmsv3.1\thinkphp\library\think\db\Connection.php:528]
+---------------------------------------------------------------
+
+[2020-04-21T17:47:47+08:00] 127.0.0.1 GET 5139.com/admin/index/index.html
+[运行时间：0.240886s] [吞吐率：4.15req/s] [内存消耗：4,619.33kb] [文件加载：87]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=2',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/login/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.013929s ] mysql:host=192.168.44.48;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.009534s ]
+[ sql ] [ SQL ] SELECT * FROM `hope_system_menu` WHERE  `is_onmenu` = 1 ORDER BY `parentid` ASC,`weigh` DESC,`id` ASC [ RunTime:0.017456s ]
+---------------------------------------------------------------
+
+[2020-04-21T17:47:47+08:00] 127.0.0.1 GET 5139.com/admin/index/console.html
+[运行时间：0.136781s] [吞吐率：7.31req/s] [内存消耗：2,519.66kb] [文件加载：69]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-04-21T17:47:48+08:00] 127.0.0.1 GET 5139.com/admin/content.article/index.html
+[运行时间：0.184087s] [吞吐率：5.43req/s] [内存消耗：2,572.54kb] [文件加载：69]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\content\article\index.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-04-21T17:47:48+08:00] 127.0.0.1 GET 5139.com/admin/system.config/index.html
+[运行时间：0.138958s] [吞吐率：7.20req/s] [内存消耗：2,635.27kb] [文件加载：70]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/index/index.html',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] D:\webroot\semclientcmsv3.1\application\admin\view\system\config\index.html [ array (
+  0 => 'config',
+) ]
+---------------------------------------------------------------
+
+[2020-04-21T17:47:48+08:00] 127.0.0.1 GET 5139.com/uploads/attach/2020/03/24/5e79784f0e1b0.png
+[运行时间：0.051032s] [吞吐率：19.60req/s] [内存消耗：1,918.20kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T17:47:49+08:00] 127.0.0.1 GET 5139.com/uploads/attach/2020/03/24/5e79784f0e1b0.png
+[运行时间：0.055053s] [吞吐率：18.16req/s] [内存消耗：1,918.20kb] [文件加载：56]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-04-21T17:48:00+08:00] 127.0.0.1 POST 5139.com/admin/system.config/
+[运行时间：0.078027s] [吞吐率：12.82req/s] [内存消耗：2,679.10kb] [文件加载：67]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.config/index.html',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://5139.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '2265',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+  'base_comname' => '12345',
+  'base_contact' => '0',
+  'base_tel' => 'WATER_NORTHWEST',
+  'base_fax' => '',
+  'base_mobile' => '50',
+  'base_qq' => '563848851',
+  'base_email' => '呼啦啦，呼啦啦，呕！',
+  'base_postcode' => '20',
+  'base_provice' => '安徽省',
+  'base_city' => '六安市',
+  'base_area' => '金安区',
+  'base_address' => '小村子',
+  'top_logo_url' => 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4150802370,1902002068&fm=11&gp=0.jpg',
+  'top_ico_url' => 'https://wimg.588ku.com/gif620/20/02/29/e30fbfbbe82316216e3e26039c51c8d9.gif',
+  'top_qrcode_url' => '/uploads/attach/2020/03/24/5e79784f0e1b0.png',
+  'top_domain' => '',
+  'top_slogan' => '50',
+  'top_saletel' => '18899998888',
+  'bot_license_url' => 'https://wimg.588ku.com/gif620/19/07/09/e1dc8b0106ec27cf237ed59d65891423.gif',
+  'bot_support' => '希望科技',
+  'bot_support_url' => 'http://www.baidu.com',
+  'bot_icp' => '12345',
+  'bot_icp_url' => 'http://www.qq.com',
+  'bot_police' => 'gongan',
+  'bot_police_url' => 'http://www.12345.com',
+  'bot_copyrights' => '<p><a target="_black" href="https://wimg.588ku.com/gif620/19/07/09/e1dc8b0106ec27cf237ed59d65891423.gif">营业执照</a>&nbsp;&nbsp;<a target="_black" href="http://www.baidu.com">希望科技</a>&nbsp;&nbsp;<a target="_black" href="http://www.qq.com">1233</a>&nbsp;&nbsp;<a target="_black" href="http://www.12345.com">gongan</a>&nbsp; &nbsp;12345&nbsp; &#39;31131233&#39;</p>',
+  'plus_receive_phone' => '18899998888',
+  'plus_copy_on' => 'on',
+  'plus_message_on' => '0',
+  'plus_gps' => '***',
+  'plus_phone_number' => '13388885555',
+  'plus_fgf' => '|',
+  'plus_article_page' => '12',
+  'plus_product_page' => '12',
+  'plus_gallery_page' => '1',
+  'plus_job_page' => '2',
+  'plus_downloads_page' => '12',
+  'meta_meta' => '222',
+  'meta_js' => '11',
+  'water_is_on' => 'on',
+  'water_position' => '9',
+  'water_type' => '',
+  'water_image_imageurl' => '/uploads/attach/2020/04/20/5e9d1b67e0612.jpg',
+  'water_image_opcity' => '20',
+  'water_font_txt' => '呼啦啦，呼啦啦，呕！',
+  'water_font_angle' => '90',
+  'water_font_family' => 'HYQingKongTiJ.ttf',
+  'water_font_size' => '15',
+  'water_font_color' => '#111000',
+)
+---------------------------------------------------------------
+
+[2020-04-21T17:48:14+08:00] 127.0.0.1 POST 5139.com/admin/system.config/doRemoveWater
+[运行时间：0.936184s] [吞吐率：1.07req/s] [内存消耗：3,887.66kb] [文件加载：74]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.config/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://5139.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012507s ] mysql:host=192.168.44.48;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_attachment` [ RunTime:0.018934s ]
+[ sql ] [ SQL ] SELECT * FROM `hope_system_attachment` [ RunTime:0.002722s ]
+---------------------------------------------------------------
+
+[2020-04-21T17:49:00+08:00] 127.0.0.1 POST 5139.com/admin/system.config/doAddWater
+[运行时间：1.866777s] [吞吐率：0.54req/s] [内存消耗：3,888.39kb] [文件加载：74]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.config/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://5139.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012656s ] mysql:host=192.168.44.48;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_attachment` [ RunTime:0.014583s ]
+[ sql ] [ SQL ] SELECT * FROM `hope_system_attachment` [ RunTime:0.002631s ]
+---------------------------------------------------------------
+
+[2020-04-21T17:49:17+08:00] 127.0.0.1 POST 5139.com/admin/system.config/doRemoveWater
+[运行时间：1.277440s] [吞吐率：0.78req/s] [内存消耗：3,887.66kb] [文件加载：74]
+[ info ] [ LANG ] D:\webroot\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => '__guid=258652622.45399170097179490.1585108269166.9573; pgv_pvi=9432561664; PHPSESSID=1ft59duuroerujgv2aq71um4p4; monitor_count=3',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://5139.com/admin/system.config/index.html',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'origin' => 'http://5139.com',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'content-length' => '0',
+  'connection' => 'close',
+  'host' => '5139.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.005675s ] mysql:host=192.168.44.48;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_attachment` [ RunTime:0.022973s ]
+[ sql ] [ SQL ] SELECT * FROM `hope_system_attachment` [ RunTime:0.002766s ]

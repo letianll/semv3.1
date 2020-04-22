@@ -1,0 +1,27 @@
+<?php
+namespace app\admin\model;
+use app\core\basic\BaseModel;
+ 
+class Menu extends BaseModel{
+
+	protected $name = 'system_menu';
+	
+	/**
+	 * 返回menu数据json 
+	 * @return [type] [description]
+	 */
+	public static function lists(){
+		return self::where('is_check',1)->order('weigh DESC')->select()->toArray()?:[];		
+	}
+
+
+
+
+
+
+
+
+
+	
+}
+

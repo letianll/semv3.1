@@ -1,0 +1,33 @@
+<?php
+namespace app\admin\controller\system;
+use think\Controller;
+use app\admin\model\Menu as MenuModel;
+
+class Menu extends Controller{
+
+	/**
+	 * 菜单管理首页
+	 * @return [type] [description]
+	 */
+	public function index(){
+		return view();
+	}
+	
+	/**
+	 * menu 列表
+	 */
+	public function lists(){
+		halt(MenuModel::lists()) ;
+	}
+
+
+
+
+
+
+
+
+
+	
+}
+

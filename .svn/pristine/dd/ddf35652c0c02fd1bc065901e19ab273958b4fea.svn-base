@@ -1,0 +1,81 @@
+{layout name="layout" /}
+	<body>
+		<button type="button" ew-event="open" data-type="1" data-url="image" data-area="800px,550px" data-offset="10px,10px" class="mui-btn mui-btn-yellow mui-btn-block image-manage">按钮</button>
+		<div class="row">
+		   <div class="col-sm-12 panel panel-default" >
+		       <div class="panel-body" style="padding: 30px">
+		           <form class="form-horizontal" id="signupForm">
+						<div class="form-group">
+						   <div class="col-md-12">
+							   <div class="form-control" style="height:auto">
+								   <label style="color:#ccc">图文封面大图片设置</label>
+								   <div class="row nowrap">
+									   <div class="col-xs-3" style="width:160px">
+										   {if condition="0"}
+										   <div class="upload-image-box transition image_img" style="height: 80px;background-repeat:no-repeat;background-size:contain;background-image:url({$news['image_input']})">
+											   <input value="" type="hidden" name="local_url">
+										   </div>
+										   {else/}
+										   <div class="upload-image-box transition image_img" style="height: 80px;background-repeat:no-repeat;background-size:contain;background-image:url('/system/module/wechat/news/images/image.png')">
+											   <input value="" type="hidden" name="local_url">
+										   </div>
+										   {/if}
+									   </div>
+									   <div class="col-xs-6">
+										   <input type="file" class="upload" name="image" style="display: none;" id="image" />
+										   <br>
+										   <a class="btn btn-sm add_image upload_span">上传图片</a>
+										   <br>
+										   <br>
+									   </div>
+								   </div>
+								   <input type="hidden" name="image" id="image_input" value=""/>
+								   <p class="help-block" style="margin-top:10px;color:#ccc">封面大图片建议尺寸：900像素 * 500像素</p>
+							   </div>
+						   </div>
+					   </div> 
+					   </form>
+				   </div>
+				 </div>
+			 </div>
+	</body>
+
+<!-- js部分 -->
+<script type="text/javascript" src="/assets/libs/layui/layui.js"></script>
+<script type="text/javascript" src="/assets/js/common.js?v=316"></script>
+
+<script>
+    layui.use(['layer', 'form', 'admin', 'treeTable', 'util','cascader'], function () {
+        var $ = layui.jquery;
+        var layer = layui.layer;
+        var form = layui.form;
+        var admin = layui.admin;
+        var treeTable = layui.treeTable;
+        var util = layui.util;
+
+		
+		// $(".image-manage").click(function(){
+		// 	// 打开弹窗
+		// 	admin.open({
+		// 	    type: 2,
+		// 	    content: 'image',
+		// 		width:500,
+		// 		height:1000,
+		// 	});
+
+		// })
+		
+ 
+
+
+
+
+	
+	});
+	
+
+
+
+</script>
+</body>
+</html>

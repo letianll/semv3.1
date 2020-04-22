@@ -1,0 +1,40 @@
+<?php
+namespace app\admin\controller\system;
+use think\Controller;
+use app\admin\model\Menu as MenuModel;
+use app\core\lib\Json;
+
+class Menu extends Controller{
+
+	/**
+	 * 菜单管理首页
+	 * @return [type] [description]
+	 */
+	public function index(){
+		return view();
+	}
+	
+	/**
+	 * menu 列表
+	 */
+	public function lists(){
+		$data = MenuModel::lists();
+		return json([
+			"code"=> 0,
+			"msg"=> "",
+			"count"=> count($data),
+			"data"=>$data
+		]);
+	}
+
+
+
+
+
+
+
+
+
+	
+}
+

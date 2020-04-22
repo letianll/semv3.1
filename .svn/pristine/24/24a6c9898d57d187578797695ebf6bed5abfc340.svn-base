@@ -1,0 +1,216 @@
+{layout name="layout" /}
+<style type="text/css">.layui-form-required:before {font-size: 12px;}</style>
+<body>
+
+<!-- 页面加载loading -->
+<div class="page-loading">
+    <div class="ball-loader">
+        <span></span><span></span><span></span><span></span>
+    </div>
+</div>
+
+<!-- 正文开始 -->
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <!-- 添加和修改公用的表单 -->
+            <form id="categoryEditForm" lay-filter="categoryEditForm" class="layui-form" autocomplete="off">
+                <input name="id" type="hidden" value="{$data['id']}" />
+                <div class="layui-tab layui-tab-brief">
+                    <ul class="layui-tab-title">
+                        <li class="layui-this">基本信息</li>
+                        <li>SEO配置</li>
+                    </ul>
+                    <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show">
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label layui-form-required">所属分类：</label>
+                                    <div class="layui-input-inline">
+                                        <select name="parentid" class="layui-select">
+                                            <option value="0">顶级分类</option>
+                                        {volist name="cate_list" id="vo"}
+                                            <option value="{$vo['id']}" {eq name="data['parentid']" value="$vo['id']"}selected{/eq}>{$vo['html']}{$vo['category']}</option>
+                                        {/volist}
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label layui-form-required">分类名称：</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" name="category" class="layui-input" value="{$data['category']}" lay-vertype="tips" lay-verify="required">
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label layui-form-required">分类别名：</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" name="urlname" class="layui-input" value="{$data['urlname']}" lay-vertype="tips" lay-verify="required" style="width: 80px;">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">分类排序：</label>
+                                    <div class="layui-input-inline" style="width: auto;">
+                                        <input type="number" name="paixu" class="layui-input" value="{$data['paixu']}" min="0" style="width: 50px;">
+                                    </div>
+                                    <div class="layui-form-mid layui-word-aux">（倒叙排列）</div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">打开方式：</label>
+                                    <div class="layui-input-inline">
+                                        <input type="radio" name="target" value="_self" title="本页" {eq name="data['target']" value="_self"}checked{/eq}>
+                                        <input type="radio" name="target" value="_blank" title="新窗口" {eq name="data['target']" value="_blank"}checked{/eq}>
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">nofollow：</label>
+                                    <div class="layui-input-inline" style="width: auto">
+                                        <input type="checkbox" name="nofollow" value="nofollow" lay-skin="primary" title="启用" {eq name="data['nofollow']" value="nofollow"}checked{/eq}>
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">分类属性：</label>
+                                    <div class="layui-input-inline">
+                                        <input type="checkbox" name="is_check" value="1" lay-skin="primary" title="启用" {eq name="data['is_check']" value="1"}checked{/eq}>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label layui-form-required">优化词：</label>
+                                    <div class="layui-input-inline" style="width: auto;">
+                                        <input type="text" name="keyword" class="layui-input" value="{$data['keyword']}" style="width: 100px;" placeholder="请填写1个词">
+                                    </div>
+                                </div>
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">创建时间</label>
+                                    <div class="layui-input-inline">
+                                        <input type="text" name="addtime" id="addtime" value="{$data['addtime']}" class="layui-input icon-date" lay-key="1" lay-vertype="tips" lay-verify="dateX">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">分类图片：</label>
+                                    <div class="layui-input-inline" style="width:auto;">
+                                        <input type="text" name="cateimg" id="cateimg" class="layui-input" value="{$data['cateimg']}" placeholder="可手填或选择上传" size="40">
+                                    </div>
+                                    <div class="layui-input-inline" style="width:auto;">
+                                        <a class="layui-btn" id="file-btn-choose">选择图片</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-inline">
+                                    <label class="layui-form-label">分类外链：</label>
+                                    <div class="layui-input-block">
+                                        <input type="text" name="url" class="layui-input" value="{$data['url']}" lay-vertype="tips" lay-verify="urlX">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="layui-tab-item">
+                            <div class="layui-form-item">
+                                <div class="layui-block">
+                                    <label class="layui-form-label">页面标题：</label>
+                                    <div class="layui-input-block pc-max-width50">
+                                        <input type="text" name="seo_title" class="layui-input" value="{$data['seo_title']}">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-block">
+                                    <label class="layui-form-label">关键词：</label>
+                                    <div class="layui-input-block pc-max-width50">
+                                        <textarea name="seo_keywords" class="layui-textarea" cols="30" rows="10">{$data['seo_keywords']}</textarea>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="layui-form-item">
+                                <div class="layui-block">
+                                    <label class="layui-form-label">页面描述：</label>
+                                    <div class="layui-input-block pc-max-width50">
+                                        <textarea name="seo_description" class="layui-textarea" cols="30" rows="10">{$data['seo_description']}</textarea>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-fixed-footer">
+                    <div class="layui-form-btn text-center">
+                        <button class="layui-btn" lay-filter="categoryEditSubmit" lay-submit>保存</button>
+                        <button class="layui-btn layui-btn-primary" type="button" ew-event="closeThisTabs">取消</button>
+                    </div>
+                </div>
+            </form>
+            <!-- 公用表单结束 -->
+        </div>
+    </div>
+</div>
+
+
+<!-- js部分 -->
+<script type="text/javascript" src="../../assets/libs/layui/layui.js"></script>
+<script type="text/javascript" src="../../assets/js/common.js?v=317"></script>
+<script>
+layui.use(['layer', 'form', 'admin', 'element', 'laydate', 'fileChoose'], function () {
+    var $ = layui.jquery;
+    var layer = layui.layer;
+    var form = layui.form;
+    var admin = layui.admin;
+    var element = layui.element;
+    var laydate = layui.laydate;
+    var fileChoose = layui.fileChoose;
+
+    // 表单提交事件
+    form.on('submit(categoryEditSubmit)', function (data) {
+        var loadIndex = layer.load(2);
+        $.post('{:url("admin/category.product/edit")}', data.field, function (res) {
+            console.log(res);
+            layer.close(loadIndex);
+            if (res.status == '1') {
+                layer.msg(res.msg, {icon: 1,time:1000}, function(){
+                    admin.closeThisTabs();
+                });
+
+            } else {
+                layer.msg(res.msg, {icon: 2,time:2000});
+            }
+        }, 'json');
+        return false;
+    });
+
+    // 文件弹窗选择
+    $('#file-btn-choose').click(function () {
+        fileChoose.open({
+            fileUrl: '',
+            listUrl: '{:url("admin/files/lists",["filetype"=>0])}',
+            num: 1,
+            onChoose: function (urls) {
+                var fileUrls = [], fileUrl = '';
+                for (var i = 0; i <= urls.length-1; i++) {
+                    // console.log(urls[i]['url']);
+                    fileUrls[i] = urls[i]['url'];
+                }
+                fileUrl = fileUrls.join(',');
+                console.log(fileUrl);
+                $('#cateimg').val(fileUrl);
+                layer.msg('操作成功！', {icon: 1,time:1000});
+
+            }
+        });
+    });
+
+
+    laydate.render({
+        elem: '#addtime',
+        type: 'datetime'
+    });
+
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,5 @@
+{layout name="layout" /}
+
+<div class="layui-fluid">
+	消息中心
+</div>

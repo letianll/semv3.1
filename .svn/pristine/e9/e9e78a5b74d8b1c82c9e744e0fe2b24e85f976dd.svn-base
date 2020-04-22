@@ -1,0 +1,66 @@
+<?php
+namespace app\admin\controller;
+use think\Controller;
+
+class Index extends Controller{
+
+	/**
+	 * 登陆成功后跳转到的首页
+	 * @return [type] [description]
+	 */
+	public function index(){
+		//获取nav，支持最多3级
+		$system_menu_tmp = db('system_menu')->field('id,parentid,menu,url,icon,weigh,is_onmenu')->select();
+		$system_menu = (new \Category())->getJsonTree($system_menu_tmp,0);#halt($system_menu);
+		$this->assign([
+			'system_menu'=>$system_menu,
+		]);
+		return view();
+	}
+
+	// 后台首页控制台
+	public function console(){
+		return view();
+	}
+
+
+	public function login(){
+		return view();
+	}
+
+	// 侧边主题栏
+	public function tpltheme(){
+		return view();
+	}
+	// 后台锁屏界面
+	public function tpllockscreen(){
+		return view();
+	}
+
+	// public function son($array=[],$pId=0){		
+
+
+	//     foreach($array as $key => $val){
+	//         if(isset($val['parentid']) && ($val['parentid'] == $pId)) {
+	//             $tmp = $array[$key];
+	//             unset($array[$key]);
+	//             if(count($this->son($array,$val['id'])) > 0){
+	//                 $tmp['son'] = $this->son($array,$val['id']);
+	//             }
+	//             $result[] = $tmp;
+	//         }
+	//     }
+	//     return $result;
+	// }
+
+
+
+
+
+
+
+
+
+	
+}
+

@@ -1,0 +1,190 @@
+{layout name="layout" /}
+<style>
+	.mianban-ul li span{
+		color: #2f822f;
+	}
+	.mianban-ul li span:nth-child(2) {
+		color: #2f822f;
+		float: right;
+	}
+	.tongji-ul li {
+		float: left;
+		text-align: center;
+		margin: 5px 0;
+	}
+	.sm-st-icon >i{
+		width: 60px;
+		height: 60px;
+		display: inline-block;
+		line-height: 60px;
+		text-align: center;
+		background: #eee;
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin-right: 10px;
+		font-size: 30px!important;
+		color: #1E9FFF;
+	}
+	.layui-fluid{
+		padding: 15px 15px 0 15px;
+	}
+</style>
+<link rel="stylesheet" type="text/css" href="__STATIC__/admin/css/formSelects-v4.css"/>
+<div class="layui-fluid">
+    <div class="layui-row layui-col-space20">
+    	<div class="layui-col-lg12 layui-col-xs12">
+    		<div class="layui-card system-info">
+		    	<div class="layui-card-header">
+		    		当前用户：<span>{:session('admin.username')}</span>
+		    		今天是：<script src="__STATIC__/admin/js/time.js"></script>
+		    	</div>
+				<div class="layui-card-body">
+					系统版本：<span>sem v3</span>
+					您上次登录时间：<span>{:session('admin.last_login_time')}</span>
+					此次登陆IP：<span>{:session('admin.last_login_ip')}</span>
+					技术支持：<a href="http://www.ahxwkj.com" target="_blank">希望科技</a>
+				</div>
+		    </div>
+    	</div>
+    </div>
+</div>
+
+
+<!--数据统计-->
+<div class="layui-fluid">
+	<div class="layui-row layui-col-space20">
+		<div class="layui-col-lg5 layui-col-xs5">
+			<div class="layui-card" style="height: 178px" >
+				<div class="layui-card-header"><image src="__STATIC__/admin/images/td.png" style="opacity: 0.5;width: 20px"></image> 最新流程</div>
+				<div class="layui-card-body" >
+					<ul class="mianban-ul">
+						{foreach name="liuchengList" item="data"}
+						<li><a lay-href="/admin/process.jprocess/dealprocess?id={$data['id']}"><span>{$data['contractno']}</span> 【{$data['comname']}】 <span>{$data['nickname']} {:substr($data['addtime'],0,10)}</span></a></li>
+						{/foreach}
+					</ul>
+				</div>
+			</div>
+			<div class="layui-card" style="height: 178px">
+				<div class="layui-card-header"><image src="__STATIC__/admin/images/td.png" style="opacity: 0.5;width: 20px"></image> 最新订单</div>
+				<div class="layui-card-body">
+					<ul class="mianban-ul">
+						{foreach name="orderList" item="data"}
+						<li><a href="###"><span>{$data['contractno']}</span> 【{$data['comname']}】 <span> {:substr($data['addtime'],0,10)}</span></a></li>
+						{/foreach}
+					</ul>
+				</div>
+			</div>
+			<div class="layui-card" style="height: 178px">
+				<div class="layui-card-header"><image src="__STATIC__/admin/images/td.png" style="opacity: 0.5;width: 20px"></image> 最新维护</div>
+				<div class="layui-card-body">
+					<ul class="mianban-ul">
+						{foreach name="res_huifu" item="data"}
+						<li><a href="###"><span>{$data['log_content']}</span> 【{$data['log_ip']}】 <span> {:substr($data['addtime'],0,10)}</span></a></li>
+						{/foreach}
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="layui-col-lg7 layui-col-xs7">
+			<div class="layui-card" id="echart1" style="height:370px;" >
+				1123
+			</div>
+			<div class="layui-card" >
+				<div class="layui-card-body">
+					<ul class="tongji-ul">
+						<li class="layui-row layui-col-lg3 layui-col-xs3 layui-col-space1" style="text-align: center" >
+							<!--<span class="sm-st-icon st-red"></span>-->
+							<span style="display: flex;flex-direction: row;margin-left: 25px;">
+								<span>
+									<span class="sm-st-icon st-red" ><i class="layui-icon layui-icon-face-smile"></i></span>
+								</span>
+								<span style="margin: 10px 0;font-size: 16px	;font-weight: bolder">总代理数</br>{$num_agent}</span>
+							</span>
+						</li>
+						<li class="layui-row layui-col-lg3 layui-col-xs3 layui-col-space1" style="text-align: center" >
+							<!--<span class="sm-st-icon st-red"></span>-->
+							<span style="display: flex;flex-direction: row;margin-left: 25px;">
+								<span>
+									<span class="sm-st-icon st-red" ><i class="layui-icon layui-icon-file-b"></i></span>
+								</span>
+								<span style="margin: 10px 0;font-size: 16px	;font-weight: bolder">总流程数</br>{$num_process}</span>
+							</span>
+						</li>
+						<li class="layui-row layui-col-lg3 layui-col-xs3 layui-col-space1" style="text-align: center" >
+							<!--<span class="sm-st-icon st-red"></span>-->
+							<span style="display: flex;flex-direction: row;margin-left: 25px;">
+								<span>
+									<span class="sm-st-icon st-red" ><i class="layui-icon layui-icon-form"></i></span>
+								</span>
+								<span style="margin: 10px 0;font-size: 16px	;font-weight: bolder">总订单数</br>{$num_orders}</span>
+							</span>
+						</li>
+						<li class="layui-row layui-col-lg3 layui-col-xs3 layui-col-space1" style="text-align: center" >
+							<!--<span class="sm-st-icon st-red"></span>-->
+							<span style="display: flex;flex-direction: row;margin-left: 25px;">
+								<span>
+									<span class="sm-st-icon st-red" ><i class="layui-icon layui-icon-tabs"></i></span>
+								</span>
+								<span style="margin: 10px 0;font-size: 16px	;font-weight: bolder">总文章数</br>{$num_article}</span>
+							</span>
+						</li>
+						<li class="layui-row layui-col-lg3 layui-col-xs3 layui-col-space1" style="text-align: center" >
+							<!--<span class="sm-st-icon st-red"></span>-->
+							<span style="display: flex;flex-direction: row;margin-left: 25px;">
+								<span>
+									<span class="sm-st-icon st-red" ><i class="layui-icon layui-icon-group"></i></span>
+								</span>
+								<span style="margin: 10px 0;font-size: 16px	;font-weight: bolder">总客户数</br>{$num_customer}</span>
+							</span>
+						</li>
+						<li class="layui-row layui-col-lg3 layui-col-xs3 layui-col-space1" style="text-align: center" >
+							<!--<span class="sm-st-icon st-red"></span>-->
+							<span style="display: flex;flex-direction: row;margin-left: 25px;">
+								<span>
+									<span class="sm-st-icon st-red" ><i class="layui-icon layui-icon-rmb"></i></span>
+								</span>
+								<span style="margin: 10px 0;font-size: 16px	;font-weight: bolder">总充值额</br>{$num_deal_cz}</span>
+							</span>
+						</li>
+						<li class="layui-row layui-col-lg3 layui-col-xs3 layui-col-space1" style="text-align: center" >
+							<!--<span class="sm-st-icon st-red"></span>-->
+							<span style="display: flex;flex-direction: row;margin-left: 25px;">
+								<span>
+									<span class="sm-st-icon st-red" ><i class="layui-icon layui-icon-rmb"></i></span>
+								</span>
+								<span style="margin: 10px 0;font-size: 16px	;font-weight: bolder">总消费额</br>{$num_deal_xf}</span>
+							</span>
+						</li>
+
+
+						<div style="clear:both"></div>
+					</ul>
+
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+</div>
+
+
+
+
+<script src="__STATIC__/admin/js/layui/layui.js"></script>
+<script src="__STATIC__/admin/js/echarts.min.js"></script>
+<script>
+layui.config({
+  base: '__STATIC__/admin/js/' //你存放新模块的目录，注意，不是layui的模块目录
+}).extend({
+    index: 'lib/index', //主入口模块
+    formSelects: 'formSelects-v4'
+}).use(['index','console'],function(){
+	//设置磁盘空间使用的进度条
+
+
+});
+
+</script>

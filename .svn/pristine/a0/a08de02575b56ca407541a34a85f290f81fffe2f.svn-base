@@ -1,0 +1,7 @@
+<?php
+//模块的配置文件
+return [
+	'default_controller'    		=>  'Login', // 默认控制器名称
+    'default_action'        		=>  'index', // 默认操作名称
+
+];

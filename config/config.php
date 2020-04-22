@@ -1,0 +1,70 @@
+<?php
+/**
+ * 由王猛修改.
+ * 2020/04/22 15:58:37
+ */
+return [
+	'baseConfig'=>[
+		'base_comname' => '12345',
+		'base_contact' => '0',
+		'base_tel' => 'WATER_NORTHWEST',
+		'base_fax' => '',
+		'base_mobile' => '50',
+		'base_qq' => '563848851',
+		'base_email' => '呼啦啦，呼啦啦，呕！',
+		'base_postcode' => '20',
+		'base_provice' => '安徽省',
+		'base_city' => '六安市',
+		'base_area' => '金安区',
+		'base_address' => '小村子',
+	],
+	'topConfig'=>[
+		'top_logo_url' => 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=4150802370,1902002068&fm=11&gp=0.jpg',
+		'top_ico_url' => 'https://wimg.588ku.com/gif620/20/02/29/e30fbfbbe82316216e3e26039c51c8d9.gif',
+		'top_qrcode_url' => '/uploads/attach/2020/03/24/5e79784f0e1b0.png',
+		'top_domain' => '',
+		'top_slogan' => '50',
+		'top_saletel' => '18899998888',
+	],
+	'botConfig'=>[
+		'bot_license_url' => 'https://wimg.588ku.com/gif620/19/07/09/e1dc8b0106ec27cf237ed59d65891423.gif',
+		'bot_support' => '希望科技',
+		'bot_support_url' => 'http://www.baidu.com',
+		'bot_icp' => '12345',
+		'bot_icp_url' => 'http://www.qq.com',
+		'bot_police' => 'gongan',
+		'bot_police_url' => 'http://www.12345.com',
+		'bot_copyrights' => '<p><a target="_black" href="https://wimg.588ku.com/gif620/19/07/09/e1dc8b0106ec27cf237ed59d65891423.gif">营业执照</a>&nbsp;&nbsp;<a target="_black" href="http://www.baidu.com">希望科技</a>&nbsp;&nbsp;<a target="_black" href="http://www.qq.com">1233</a>&nbsp;&nbsp;<a target="_black" href="http://www.12345.com">gongan</a>&nbsp; &nbsp;12345&nbsp; &#39;31131233&#39;</p>',
+	],
+	'plusConfig'=>[
+		'plus_msg_on' => '0',
+		'plus_jobmsg_on' => '0',
+		'plus_receive_phone' => '18899998888',
+		'plus_copy_on' => '1',
+		'plus_message_on' => '0',
+		'plus_gps' => '***',
+		'plus_phone_number' => '13388885555',
+		'plus_fgf' => '|',
+		'plus_article_page' => '12',
+		'plus_product_page' => '12',
+		'plus_gallery_page' => '1',
+		'plus_job_page' => '2',
+		'plus_downloads_page' => '12',
+	],
+	'metaConfig'=>[
+		'meta_meta' => '222',
+		'meta_js' => '11',
+	],
+	'waterConfig'=>[
+		'water_is_on' => '1',
+		'water_type' => '0',
+		'water_position' => '5',
+		'water_image_imageurl' => '/uploads/attach/2020/04/20/5e9d1b67dc45f.png',
+		'water_image_opcity' => '12',
+		'water_font_family' => 'simhei.ttf',
+		'water_font_txt' => '呼啦啦，呼啦啦，呕！！！',
+		'water_font_size' => '5',
+		'water_font_angle' => '45',
+		'water_font_color' => '#111000',
+	],
+];

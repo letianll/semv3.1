@@ -1,0 +1,102 @@
+<?php
+namespace app\admin\controller\category;
+use app\admin\controller\Common;
+use category\Category;
+
+class Product extends Common
+{
+
+    protected $model = null;
+
+    public function initialize(){
+
+        parent::initialize();
+        $this->model = model('ProductCategory');
+
+    }
+    /***
+     * 渲染主页
+     */
+    public function index(){
+        return view();
+    }
+
+    // 数据接口
+    public function lists(){
+        if ($this->request->isGet()){
+            $where=[];
+            $key = input('param.keys');
+
+            if($key){
+                $where[] = ['category','like',"%$key%"];
+            }
+
+            $total = $this->model->where($where)->count();
+            $list  = $this->model->where($where)->field('id,parentid,category,urlname,paixu,addtime,nofollow,is_check')->order('paixu desc,id asc')->select();
+            $tree = new Category();//实例化category
+            $list = $tree->unlimitedForLevel($list,$html='<e>&nbsp;</e>',$pid=0,$level=0);
+            foreach ($list as $key => $value) {
+                $parentname = $this->model->where('id','=',$value['parentid'])->value('category');
+                $list[$key]['parentname'] = $parentname ? $parentname :'顶级分类';
+            }
+            $result = ["code"=>0,"count" => $total, "data" => $list];
+            return json($result);
+        }
+    }
+
+    // 添加、修改的表单html渲染
+    public function form(){
+        return view();
+    }
+
+    // 系统管理菜单添加
+    // param 系统菜单父级id
+    public function add(){
+        if($this->request->isGet()){
+            $id = intval(input('param.id'));
+            if($id){
+                $nav_list=db('ProductCategory')->where(['is_check'=>1,'id'=>$id])->find();
+            }else{
+                $nav_list['id'] = 0;
+                $nav_list['category'] = '顶级栏目';
+            }
+            $this->assign('nav_list',$nav_list);
+            return view();
+        }elseif($this->request->isPost()){
+            $data = input('param.');
+            $res = $this->model->add($data);
+            if($res['status']==1){
+                Hook::exec(['app\\admin\\controller\\keyword\\KeywordLayout','checkAdd'],['product_category','']);
+            }
+            return json($res);
+        }
+    }
+
+    // 系统管理菜单修改
+    // param 系统菜单id
+    public function edit($id='0'){
+        if($this->request->isGet()){
+            $id = intval(input('param.id'));
+            // 渲染模板父级菜单选择框内容
+            $detail = db('Nav')->where('id',$id)->find();
+            $detail['seo_keywords'] =  explode(',', $detail['seo_keywords']);
+            $this->view->assign('detail',$detail);
+            // 选择菜单
+            $nav_list=db('Nav')->order('paixu desc,id asc')->select();
+            $tree=new Category();
+            $nav_list_tree=$tree->unlimitedForLevelForEdit($nav_list,$html='—',$pid=0,$level=0,$detail['category'],'category');
+            $this->assign('nav_list_tree',$nav_list_tree);
+            return view();
+        }elseif($this->request->isPost()){
+            $data = input('param.');
+            if($data['id']){
+                $detail = $this->model->edit($data);
+                if($detail['status']==1){
+                    Hook::exec(['app\\admin\\controller\\keyword\\KeywordLayout','checkAdd'],['Nav',$data['id']]);
+                }
+                return json($detail);
+            }
+        }
+    }
+
+}

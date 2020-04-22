@@ -1,0 +1,58 @@
+<form id="categoryEditForm" lay-filter="categoryEditForm" class="layui-form model-form" style="padding-right: 20px;">
+        <input name="id" type="hidden"/>
+        <div class="layui-row">
+            <div class="layui-col-md6">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">上级菜单</label>
+                    <div class="layui-input-block">
+                        <div id="categoryEditParentSel" class="ew-xmselect-tree"></div>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-form-required">权限名称:</label>
+                    <div class="layui-input-block">
+                        <input name="authorityName" placeholder="请输入权限名称" class="layui-input"
+                               lay-verType="tips" lay-verify="required" required/>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-form-required">权限类型:</label>
+                    <div class="layui-input-block">
+                        <input name="isMenu" type="radio" value="0" title="菜单" checked/>
+                        <input name="isMenu" type="radio" value="1" title="按钮"/>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">菜单url:</label>
+                    <div class="layui-input-block">
+                        <input name="menuUrl" placeholder="请输入菜单url" class="layui-input"/>
+                    </div>
+                </div>
+            </div>
+            <div class="layui-col-md6">
+                <div class="layui-form-item">
+                    <label class="layui-form-label">权限标识:</label>
+                    <div class="layui-input-block">
+                        <input name="authority" placeholder="请输入权限标识" class="layui-input"/>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label">菜单图标:</label>
+                    <div class="layui-input-block">
+                        <input name="menuIcon" placeholder="请输入菜单图标" class="layui-input"/>
+                    </div>
+                </div>
+                <div class="layui-form-item">
+                    <label class="layui-form-label layui-form-required">排序号:</label>
+                    <div class="layui-input-block">
+                        <input name="orderNumber" placeholder="请输入排序号" type="number" class="layui-input"
+                               lay-verType="tips" lay-verify="required|number" required/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="layui-form-item text-right">
+            <button class="layui-btn" lay-filter="authoritiesEditSubmit" lay-submit>保存</button>
+            <button class="layui-btn layui-btn-primary" type="button" ew-event="closeDialog">取消</button>
+        </div>
+    </form>

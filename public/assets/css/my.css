@@ -1,0 +1,10 @@
+.layui-table-cell e.catelist_bg {
+    background: url(../images/catelist_navlayer_bg.gif) left center no-repeat;
+}
+.layui-table-cell e {
+    height: 28px;
+    width: 1em;
+    display: block;
+    float: left;
+    background: url(../images/catelist_navlayer_bg.gif) right center no-repeat;
+}

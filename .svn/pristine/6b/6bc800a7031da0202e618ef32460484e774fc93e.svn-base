@@ -1,0 +1,39 @@
+<?php
+namespace app\admin\controller;
+use think\Controller;
+
+class Login extends Controller{
+
+	// 登录页面
+	public function index(){
+		return view();
+	}
+
+	// 验证登录账户密码是否正确
+	public function checklogin(){
+		$data = input('post.');
+		$validate = validate('Login');
+    	$vres = $validate->scene('login')->check($data);
+    	if(!$vres){
+    		return json(['status'=>0,'msg'=>$validate->getError()]);
+    	}else{
+    		//$domain = request()->host();//后期改成自动获取主机域名
+			// $domain = 'www.fxlh.cn';//后期改成自动获取主机域名
+			// $loginApi = 'http://seo.ahxwkj.com/index.php/index/api/login?v=sem3.2&domain='. $domain .'&u='.$data['username'].'&p='.$data['password'];
+
+			// $res = file_get_contents($loginApi);
+			$res = '1';
+			if($res == '1'){
+				session('admin.username',$data['username']);
+				return json(['status'=>1,'msg'=>'登录成功']);
+			}else{
+				return json(['status'=>0,'msg'=>'登录验证失败']);
+			}
+			
+    	}
+		
+	}
+
+	
+}
+

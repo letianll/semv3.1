@@ -1,0 +1,117 @@
+---------------------------------------------------------------
+
+[2020-03-17T18:19:58+08:00] 127.0.0.1 GET www.seo31.com/admin
+[运行时间：0.142008s] [吞吐率：7.04req/s] [内存消耗：3,170.24kb] [文件加载：74]
+[ info ] [ LANG ] E:\WWW\ProductDevelopment\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5201717248; pgv_si=s9651763200',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'no-cache',
+  'pragma' => 'no-cache',
+  'connection' => 'close',
+  'host' => 'www.seo31.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\WWW\ProductDevelopment\semclientcmsv3.1\application\admin\view\index\index.html [ array (
+  0 => 'system_menu',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006000s ] mysql:host=192.168.20.192;port=3306;dbname=v3admin;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `hope_system_menu` [ RunTime:0.053003s ]
+[ sql ] [ SQL ] SELECT `id`,`parentid`,`menu`,`url`,`icon`,`weigh`,`is_onmenu` FROM `hope_system_menu` [ RunTime:0.002001s ]
+---------------------------------------------------------------
+
+[2020-03-17T18:19:58+08:00] 127.0.0.1 GET www.seo31.com/page/template/user-info.html
+[运行时间：0.038002s] [吞吐率：26.31req/s] [内存消耗：1,448.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\WWW\ProductDevelopment\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+---------------------------------------------------------------
+
+[2020-03-17T18:19:58+08:00] 127.0.0.1 GET www.seo31.com/admin/index/console.html
+[运行时间：0.056003s] [吞吐率：17.86req/s] [内存消耗：2,113.63kb] [文件加载：66]
+[ info ] [ LANG ] E:\WWW\ProductDevelopment\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5201717248; pgv_si=s9651763200',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.seo31.com/admin',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'upgrade-insecure-requests' => '1',
+  'connection' => 'close',
+  'host' => 'www.seo31.com',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] E:\WWW\ProductDevelopment\semclientcmsv3.1\application\admin\view\index\console.html [ array (
+) ]
+---------------------------------------------------------------
+
+[2020-03-17T18:20:10+08:00] 127.0.0.1 GET www.seo31.com/admin/index/chanegpwd.html?v=316
+[运行时间：0.035002s] [吞吐率：28.57req/s] [内存消耗：1,951.51kb] [文件加载：66]
+[ info ] [ LANG ] E:\WWW\ProductDevelopment\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5201717248; pgv_si=s9651763200',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.seo31.com/admin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.seo31.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '316',
+)
+---------------------------------------------------------------
+
+[2020-03-17T18:20:15+08:00] 127.0.0.1 GET www.seo31.com/admin/index/chanegpwd.html?v=316
+[运行时间：0.048003s] [吞吐率：20.83req/s] [内存消耗：1,951.51kb] [文件加载：66]
+[ info ] [ LANG ] E:\WWW\ProductDevelopment\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5201717248; pgv_si=s9651763200',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://www.seo31.com/admin',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36',
+  'x-requested-with' => 'XMLHttpRequest',
+  'accept' => 'text/html, */*; q=0.01',
+  'connection' => 'close',
+  'host' => 'www.seo31.com',
+)
+[ info ] [ PARAM ] array (
+  'v' => '316',
+)
+---------------------------------------------------------------
+
+[2020-03-17T18:22:25+08:00] 127.0.0.1 GET www.seo31.com/admin/index/logout.html
+[运行时间：0.088005s] [吞吐率：11.36req/s] [内存消耗：1,951.55kb] [文件加载：66]
+[ info ] [ LANG ] E:\WWW\ProductDevelopment\semclientcmsv3.1\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'cookie' => 'pgv_pvi=5201717248; pgv_si=s9651763200',
+  'connection' => 'close',
+  'host' => 'www.seo31.com',
+  'accept-encoding' => 'gzip, deflate',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+  'accept-language' => 'zh-CN',
+  'referer' => 'http://www.seo31.com/admin',
+  'accept' => 'text/html, application/xhtml+xml, */*',
+)
+[ info ] [ PARAM ] array (
+)
+[ error ] [0]variable type error： boolean[E:\WWW\ProductDevelopment\semclientcmsv3.1\thinkphp\library\think\Response.php:403]
