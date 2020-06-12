@@ -1,4 +1,4 @@
-<?php /*a:2:{s:73:"D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html";i:1584580093;s:62:"D:\webroot\semclientcmsv3.1\application\admin\view\layout.html";i:1584527172;}*/ ?>
+<?php /*a:2:{s:73:"D:\webroot\semclientcmsv3.1\application\admin\view\system\menu\index.html";i:1587633847;s:62:"D:\webroot\semclientcmsv3.1\application\admin\view\layout.html";i:1584695012;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -111,7 +111,7 @@
 					</button>
 					<div id="icon_list">
 						<ul>
-							<?php echo htmlspecialchars_decode($icon); ?>
+							
 						</ul>
 					</div>
 				</div>
@@ -148,6 +148,7 @@
         // 渲染表格
         var insTb = treeTable.render({
             elem: '#tableAuth',
+            defaultToolbar: ['filter'],
             tree: {
                 iconIndex: 1,  // 折叠图标显示在第几列
                 idName: 'id',  // 自定义id字段的名称
@@ -373,3 +374,12 @@
 	#icon_list ul li:hover {background-color: #f7f7f7;color:#009688;}
 </style>
 
+<style type="text/css">
+.layui-form-fixed-footer:before {content:''; display: block; height: 76px;}
+.layui-form-fixed-footer .layui-form-btn {position: fixed;left: 0;right:0;bottom: 0;background: #fff;padding: 10px 0;border-top: 1px solid #eee;box-shadow: 0px -5px 10px rgba(0,0,0,.05);}
+.pc-max-width50 {max-width: 50%;}
+
+@media only screen and (min-width: 320px) and (max-width: 640px){
+	.pc-max-width50 {max-width: 100%;}
+}
+</style>

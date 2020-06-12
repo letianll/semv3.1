@@ -1,0 +1,103 @@
+{layout name="layout" /}
+<style type="text/css">.layui-form-required:before {font-size: 12px;}</style>
+<body>
+
+<!-- 页面加载loading -->
+<div class="page-loading">
+    <div class="ball-loader">
+        <span></span><span></span><span></span><span></span>
+    </div>
+</div>
+
+<!-- 正文开始 -->
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <!-- 添加和修改公用的表单 -->
+            <form id="categoryEditForm" lay-filter="categoryEditForm" class="layui-form" autocomplete="off">
+                <div class="layui-tab layui-tab-brief">
+                    <div class="layui-tab-content">
+                        
+                          <!--代码输入框（注意请务必设置高度，否则无法显示）-->
+                          <div class="container" id="div-hidden">
+                          <button class="layui-btn icon-magic" type="button" id="layout" style="width: 20%;">  一键优化</button>
+                          <br /><br />
+                          <p style="" data-value=""></p>
+                              <progress id="processbar" max="100" value="0" class="html5">
+                                <div class="progress-bar" >
+                                  
+                                </div>
+                              </progress>
+                              <span id="processbar-text"></span>
+                          <ul id='attention'>
+                            <li><font size="3" color='orange'>优化注意事项</font></li>
+                            <hr>
+                            <li class="icon-hand-o-right"> 初次添加资料之前请勿使用该功能。</li>
+                            <hr>
+                            <li class="icon-hand-o-right"> 该功能主要优化站点SEO配置项。</li>
+                            <hr>
+                          </ul>
+                          </div>
+
+
+                    </div>
+                </div>
+
+
+                
+
+
+            </form>
+            <!-- 公用表单结束 -->
+        </div>
+    </div>
+</div>
+
+
+<!-- js部分 -->
+<script type="text/javascript" src="../../assets/libs/layui/layui.js"></script>
+<script type="text/javascript" src="../../assets/js/common.js?v=317"></script>
+<script type="text/javascript" src="../../static/plug/process/process.js"></script>
+<link rel="stylesheet" href="../../static/plug/process/process.css"/>
+
+<script>
+layui.use(['layer', 'form', 'admin', 'element', ], function () {
+    var $ = layui.jquery;
+    var layer = layui.layer;
+    var form = layui.form;
+    var admin = layui.admin;
+    var element = layui.element;
+
+    var processbarNum=0;
+    $('#layout').click(function () {
+        var list = ['check','product_category','product'];
+        for(var i=0;i<list.length;i++){
+            layout(list[i]);
+        }
+        
+    });
+
+    function layout(e){
+        var getUrl = "{:url('sem.layout/doLayout')}";
+        $.ajax({
+            type:'POST',
+            url: getUrl,
+            data:{param:e},
+            success:function(data){
+                if(data.code == 1){
+                    $("#layout").hide();
+                    $("#attention").hide();
+                    $("#processbar").val(processbarNum+10);
+                    $("#processbar-text").append("<p>"+data.msg+"</p>");    
+                }else{
+                    layer.msg(data.msg);
+                }
+            }
+        })
+    }
+   
+
+});
+</script>
+</body>
+</html>

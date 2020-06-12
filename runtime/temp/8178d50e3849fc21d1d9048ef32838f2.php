@@ -1,4 +1,4 @@
-<?php /*a:1:{s:70:"D:\webroot\semclientcmsv3.1\application\admin\view\index\tpltheme.html";i:1584345399;}*/ ?>
+<?php /*a:1:{s:70:"D:\webroot\semclientcmsv3.1\application\admin\view\index\tpltheme.html";i:1584498007;}*/ ?>
 <div class="layui-card-header">主题设置</div>
 <div class="more-theme-list">
     <div class="more-theme-item active">
@@ -26,18 +26,8 @@
         <img src="/assets/module/img/theme-red.png"/>
     </div>
 </div>
-<!-- 导航 -->
-<div class="more-menu-list">
-    <a class="more-menu-item" href="https://easyweb.vip/doc/" target="_blank">
-        <i class="layui-icon layui-icon-read" style="font-size: 19px;"></i> 开发文档
-    </a>
-    <a class="more-menu-item" href="https://demo.easyweb.vip/spa" target="_blank">
-        <i class="layui-icon layui-icon-tabs" style="font-size: 16px;"></i> &nbsp;spa版本
-    </a>
-    <a class="more-menu-item" href="https://demo.easyweb.vip/theme" target="_blank">
-        <i class="layui-icon layui-icon-theme"></i> 主题生成器
-    </a>
-</div>
+
+
 <!-- 控制开关 -->
 <div class="layui-form" style="margin: 25px 0;" lay-filter="more-set-form">
     <div class="layui-form-item">

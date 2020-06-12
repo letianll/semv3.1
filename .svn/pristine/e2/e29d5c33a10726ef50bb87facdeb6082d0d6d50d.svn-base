@@ -1,0 +1,96 @@
+<?php
+namespace app\admin\model\sem;
+use app\core\basic\BaseModel;
+ 
+class Layout extends BaseModel{
+
+	protected $name = '';
+	protected $dq   = '[dq]';
+	protected $company_info = [];
+	protected $keyword_all  = [];
+
+
+	public function initialize(){
+		$this->keyword_all = db('keyword')->field('id,keyword,product_category_id,usecount')->select();
+		$this->company_info = 
+	}
+
+	/**
+	 * 生成词库，检测词库是否为空等优化操作前置检测工作
+	 */
+	public static function check(){ 
+		$keywrod_category_lists = KeywordCategory::listsExcel();
+		if(empty($keywrod_category_lists)){
+			return json(['status'=>0,'msg'=>'未配置关键词设置']);
+		}
+		$num = 0;
+		foreach($keywrod_category_lists as &$v){
+			$v['city'] =  KeywordCategory::getCitysByIdStr($v['citys']);
+			$res = KeywordCategory::getKeywordsDif($v, $isReturnList=1);
+			if($res['code']==1){
+				$num += $res['msg'] ;
+			}
+			
+		}
+		if($num){
+			return ['code'=>1, 'msg'=>'本次生成了'.$num.'个关键词'];
+		}else{
+			$num_keyword_all = db('keyword')->count('id');
+			if(!$num_keyword_all){
+				return ['code'=>0, 'msg'=>'词库为空'];
+			}
+			return ['code'=>1, 'msg'=>'检测正常，本次未生成新词'];
+		}	
+
+	}
+
+	public static function getAllKeywrod($dataBaseName){
+		$where[] = ['keyword','neq',''];
+		$where[] = ['seo_title|seo_keywords|seo_description','eq',''];
+		$list_all = db($dataBaseName)->where($where)->field('id, keyword, seo_title, seo_keywords, seo_description')->select();
+		return $list_all = empty($list_all) ? [] : $list_all;
+	}
+	
+	public function doLayoutSeotitle($data){
+		$res_title_arr = $this->getMatchKeyword($data['keyword'], $num=2); h($res_title_arr);
+		if(!empty($res_title_arr)){
+			$prefix = '_'.$this->dq;
+			$res_title_str =  $prefix.implode($prefix,$res_title_arr);
+		}
+		$res_title_str = '';
+	}
+
+	private function getMatchKeyword($keyword, $num=2){
+		$data = [];
+		$keyword_all = $this->keyword_all;
+		foreach($keyword_all as $k=>$v){
+			if(strstr($keyword_all[$k]['keyword'],$keyword) != null){
+				$data[] = $keyword_all[$k];
+			}
+		}
+		
+		if(count($data)>$num){
+			$arr = $this->getRandomKeyword($data,$num);
+
+		}elseif($num >= count($data) && count($data) > 0){
+			$arr = $data;
+		}else{
+			$arr = [];
+		}
+		return $arr;
+
+	}
+
+	private function getRandomKeyword($data, $num){
+		$res = [];
+		$keywords = array_rand($data, $num);
+		foreach ($keywords as $val) {
+			$res[] = $data[intval($val)];
+		}
+		return $res;
+	}
+
+
+	
+}
+

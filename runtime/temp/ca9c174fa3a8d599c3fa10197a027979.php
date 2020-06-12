@@ -1,4 +1,4 @@
-<?php /*a:2:{s:75:"D:\webroot\semclientcmsv3.1\application\admin\view\system\config\index.html";i:1587546041;s:62:"D:\webroot\semclientcmsv3.1\application\admin\view\layout.html";i:1584695012;}*/ ?>
+<?php /*a:2:{s:75:"D:\webroot\semclientcmsv3.1\application\admin\view\system\config\index.html";i:1587605298;s:62:"D:\webroot\semclientcmsv3.1\application\admin\view\layout.html";i:1584695012;}*/ ?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -410,22 +410,22 @@
                                 </div>
                                 <div class="layui-inline">                                   
                                     <div class="layui-input-inline" style="width:100px;">
-                                        <input type="number" value="<?php echo htmlentities($config['plusConfig']['plus_product_page']); ?>" name="plus_product_page" class="layui-input" style="width:90px;" placeholder="文章每页"/>
+                                        <input type="number" value="<?php echo htmlentities($config['plusConfig']['plus_product_page']); ?>" name="plus_product_page" class="layui-input" style="width:90px;" placeholder="产品每页"/>
                                     </div>
                                 </div>
                                 <div class="layui-inline">
                                     <div class="layui-input-inline" style="width:100px;">
-                                        <input type="number" value="<?php echo htmlentities($config['plusConfig']['plus_gallery_page']); ?>" name="plus_gallery_page" class="layui-input" style="width:90px;" placeholder="文章每页"/>
+                                        <input type="number" value="<?php echo htmlentities($config['plusConfig']['plus_gallery_page']); ?>" name="plus_gallery_page" class="layui-input" style="width:90px;" placeholder="相册每页"/>
                                     </div>
                                 </div>
                                 <div class="layui-inline">                                   
                                     <div class="layui-input-inline" style="width:100px;">
-                                        <input type="number" value="<?php echo htmlentities($config['plusConfig']['plus_job_page']); ?>" name="plus_job_page" class="layui-input" style="width:90px;" placeholder="文章每页"/>
+                                        <input type="number" value="<?php echo htmlentities($config['plusConfig']['plus_job_page']); ?>" name="plus_job_page" class="layui-input" style="width:90px;" placeholder="招聘每页"/>
                                     </div>
                                 </div>
                                 <div class="layui-inline">                                   
                                     <div class="layui-input-inline" style="width:100px;">
-                                        <input type="number" value="<?php echo htmlentities($config['plusConfig']['plus_downloads_page']); ?>" name="plus_downloads_page" class="layui-input" style="width:90px;" placeholder="文章每页"/>
+                                        <input type="number" value="<?php echo htmlentities($config['plusConfig']['plus_downloads_page']); ?>" name="plus_downloads_page" class="layui-input" style="width:90px;" placeholder="下载每页"/>
                                     </div>
                                 </div>
                             </div>
@@ -593,7 +593,7 @@
                     </div>
                 </div>
             </form>
-            <!-- 公用表单结束 -->
+            <!-- 公用表单结束  -->
         </div>
     </div>
 </div>

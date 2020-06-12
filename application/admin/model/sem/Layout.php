@@ -1,0 +1,165 @@
+<?php
+namespace app\admin\model\sem;
+use app\core\basic\BaseModel;
+use app\admin\model\sem\System;
+use app\admin\model\Keyword;
+ 
+class Layout extends BaseModel{
+
+	protected $name = '';
+	protected $dq   = '[dq]';
+	protected $company_info = [];
+	protected $keyword_all  = [];
+	protected $system_info  = [];
+
+
+	public function initialize(){
+		$this->keyword_all = Keyword::getAllKeyword();
+		$this->company_info = config('config.baseConfig.base_comname');
+		$this->system_info = System::getSysInfo(['description']); 
+	}
+
+	/**
+	 * 生成词库，检测词库是否为空等优化操作前置检测工作
+	 */
+	public static function check(){ 
+		$keywrod_category_lists = KeywordCategory::listsExcel();
+		if(empty($keywrod_category_lists)){
+			return (['status'=>0,'msg'=>'未配置关键词设置']);
+		}
+		$num = 0;
+		foreach($keywrod_category_lists as &$v){
+			$v['city'] =  KeywordCategory::getCitysByIdStr($v['citys']);
+			$res = KeywordCategory::getKeywordsDif($v, $isReturnList=1);
+			if($res['status']==1){
+				$num += $res['msg'] ;
+			}else{
+				return $res;
+			}
+			
+		}
+		if($num){
+			return ['status'=>1, 'msg'=>'本次生成了'.$num.'个关键词'];
+		}else{
+			$num_keyword_all = db('keyword')->count('id');
+			if(!$num_keyword_all){
+				return ['status'=>0, 'msg'=>'词库为空'];
+			}
+			return ['status'=>1, 'msg'=>'检测正常，本次未生成新词'];
+		}	
+
+	}
+	
+	public function updateAllKeywrod($data, $dataBaseName){
+		$model_str = '\app\admin\model\\'.$dataBaseName;	
+		try{
+			$model = new $model_str;
+			$res = $model ->isUpdate(true)->saveAll($data,true); 
+			return (['code'=>1,'msg'=>'本次优化了'.count($res).'条'.$dataBaseName.'数据']);
+		}catch(\Exception $e ){
+			return (['code'=>0,'msg'=>$e->getMessage()]);
+		}
+		
+	}
+	
+	public static function getAllKeywrod($dataBaseName){
+		$where[] = ['keyword','neq',''];
+		$where[] = ['seo_title|seo_keywords|seo_description','eq',NULL|''];
+		$list_all = db($dataBaseName)->select(); 
+		return $list_all = empty($list_all) ? [] : $list_all;
+	}
+	
+	public function doLayoutSeoTitle($data){ 
+		$res_title_arr = $this->getMatchKeyword($data['keyword'], $num=2); 
+		$res_title_str = '';
+		if(!empty($res_title_arr)){
+			$prefix = '_'.$this->dq;
+			$res_title_str =  $prefix.implode($prefix,$this->twoToOne($res_title_arr));
+		}
+		$res_title_str = $this->dq . $data['keyword'] . $res_title_str .'-'. $this->company_info;
+		return $res_title_str;
+	}
+
+	public function doLayoutSeoKeywords($data){ 
+		$res_keywords_arr = $this->getMatchKeyword($data['keyword'], $num=4); 
+		$res_keywords_str = '';
+		if(!empty($res_keywords_arr)){
+			$prefix = ','.$this->dq;
+			$res_keywords_str =  $prefix.implode($prefix,$this->twoToOne($res_keywords_arr));
+		}
+		$res_keywords_str = $this->dq . $data['keyword'] . $res_keywords_str ;
+		return $res_keywords_str;
+	}
+
+	public function doLayoutSeoDescription($data,$databaseName){ 
+		$is_category = $this->isCategory($databaseName);
+		if($is_category){
+			return $this->system_info;
+		}else{
+			$description = $this->cutDescription($data['content']);
+			if(empty($description)){
+				return $this->system_info; 
+			}
+			return $description;			
+		}
+	}
+
+	private function cutDescription($str){
+		$str = txt($str);
+		$str = cutstr($str, 200, true);
+		return $str;
+	}
+
+	private function twoToOne($arr){
+		$res = [];
+		if($arr){
+			foreach($arr as $v){
+				if(isset($v['keyword'])){
+					$res[] = $v['keyword'];
+				}
+			}
+			return $res;
+		}
+	}
+
+	private function isCategory($databaseName){
+		if(strstr($databaseName,'Category') != null){
+			return true;
+		}
+		return false;
+	}
+
+	private function getMatchKeyword($keyword, $num=2){
+		$data = [];
+		$keyword_all = $this->keyword_all;
+		foreach($keyword_all as $k=>$v){
+			if(strstr($keyword_all[$k]['keyword'],$keyword) != null){
+				$data[] = $keyword_all[$k];
+			}
+		}
+		
+		if(count($data)>$num){
+			$arr = $this->getRandomKeyword($data,$num);
+
+		}elseif($num >= count($data) && count($data) > 0){
+			$arr = $data;
+		}else{
+			$arr = [];
+		}
+		return $arr;
+
+	}
+
+	private function getRandomKeyword($data, $num){
+		$res = [];
+		$keywords = array_rand($data, $num);
+		foreach ($keywords as $val) {
+			$res[] = $data[intval($val)];
+		}
+		return $res;
+	}
+
+
+	
+}
+

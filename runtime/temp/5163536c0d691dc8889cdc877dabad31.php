@@ -1,0 +1,521 @@
+<?php /*a:2:{s:81:"D:\webroot\semclientcmsv3.1\application\admin\view\system\extend_field\index.html";i:1588835923;s:62:"D:\webroot\semclientcmsv3.1\application\admin\view\layout.html";i:1584695012;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="/assets/images/favicon.ico" rel="icon">
+<title>希望科技-SEM3.2系统 </title>
+<link rel="stylesheet" href="/assets/libs/layui/css/layui.css"/>
+<link rel="stylesheet" href="/assets/module/admin.css?v=316"/>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+
+<body>
+<!-- 页面加载loading -->
+<div class="page-loading">
+    <div class="ball-loader">
+        <span></span><span></span><span></span><span></span>
+    </div>
+</div>
+<!-- 正文开始 -->
+</script>
+
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body full-table">
+        <!-- <div class="layui-card-body table-tool-mini full-table"> -->
+            
+            <div class="layui-form toolbar">
+                <div class="layui-form-item" id="formSearch">
+                    <div class="layui-inline">
+                        <div class="layui-input-inline mr0">
+                            <input name="keyword" class="layui-input" type="text" placeholder="请输入名称或标签"/>
+                        </div>
+                    </div>
+                    <div class="layui-inline" style="padding-right: 110px;">
+                        <button class="layui-btn icon-btn" lay-filter="formSubSearchUser" lay-submit>
+                            <i class="layui-icon">&#xe615;</i>搜索
+                        </button>
+                        <!-- <button id="btnAddUser" class="layui-btn icon-btn"><i class="layui-icon">&#xe654;</i>添加</button> -->
+                    </div>
+                </div>
+            </div>
+           
+            <table id="tableDemo" lay-filter="tableDemo"></table>
+        </div>
+    </div>
+</div>
+</script>
+
+<!-- 表格操作列 -->
+<script type="text/html" id="toolbarTpl">
+    <div class="layui-btn-container">
+        <button class="layui-btn layui-btn-sm" lay-event="btnAdd" id="btnAdd"><i class="layui-icon">&#xe654;</i>添加</button>
+        <button class="layui-btn layui-btn-sm" lay-event="btnDel"><i class="layui-icon">&#xe640;</i>删除</button>
+        <button type="button" lay-submit="" class="layui-btn layui-btn-sm layui-btn-export" lay-filter="uploadImg">
+            <i class="layui-icon">&#xe681;</i>导出
+        </button>
+        <button type="button" class="layui-btn layui-btn-sm layui-btn-import"lay-event="openExcel">
+            <i class="layui-icon">&#xe601;</i>导入
+        </button>
+        ifra
+        <input type="file" style="display:none" class="layui-btn layui-btn-primary" id="LAY-excel-import-excel" multiple="multiple">
+    </div>
+</script>
+ 
+<script type="text/html" id="rightbarTpl">
+    <a class="layui-btn layui-btn-xs" lay-event="edit">修改</a>
+    <a class="layui-btn layui-btn-danger layui-btn-xs" lay-event="del">删除</a>
+</script>
+
+<!-- 配置 -->
+<script type="text/html" id="configTpl">     
+{{#  if(1 == d.types || 3 == d.types || 4 == d.types){ }}
+<button class="layui-btn layui-btn-sm" lay-event="btnConfig" id="btnConfig">配置选项</button>
+{{#  } else { }}
+{{#  } }} 
+</script>
+
+<!-- 表格状态列 -->
+<script type="text/html" id="ischeckTpl">
+    <input type="checkbox" lay-filter="ckStateUser" value="{{d.id}}" lay-skin="switch"
+           lay-text="启用|关闭"  {{1 == d.is_check ? "checked" : "" }} />
+</script>
+
+<!-- 表单弹窗 -->
+<script type="text/html" id="modelDemo">
+    <form id="modelDemoForm" lay-filter="modelDemoForm" class="layui-form model-form">
+        <input name="id" type="hidden"/>
+
+        <div class="layui-form-item">
+            <label class="layui-form-label layui-form-required">模型</label>
+            <div class="layui-input-block">
+                <select name="belong_model">
+                    <option value="0">产品</option>
+                    <option value="1">文章</option>
+                    <option value="2">相册</option>
+                    <option value="3">招聘</option>
+                    <option value="4">下载</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label layui-form-required">类型</label>
+            <div class="layui-input-block">
+                <select name="types">
+                    <option value="0">输入框</option>
+                    <option value="1">下拉</option>
+                    <option value="2">文本</option>
+                    <option value="3">单选</option>
+                    <option value="4">多选</option>
+                    <option value="5">编辑器</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label layui-form-required">名称</label>
+            <div class="layui-input-block">
+                <input name="name" placeholder="请输入名称" type="text" class="layui-input" maxlength="20"
+                       lay-verType="tips" lay-verify="required" required/>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label layui-form-required">标签</label>
+            <div class="layui-input-block">
+                <input name="tags" placeholder="请输入标签" type="text" class="layui-input" maxlength="20"
+                       lay-verType="tips" lay-verify="required" required/>
+            </div>
+        </div>
+        <div class="layui-form-item">
+            <label class="layui-form-label layui-form-required">启用</label>
+            <div class="layui-input-block">
+                <select name="is_check">
+                    <option value="0">关闭</option>
+                    <option value="1">开启</option>
+                </select>
+            </div>
+        </div>
+        <div class="layui-form-item text-right">
+            <button class="layui-btn layui-btn-primary" type="button" ew-event="closePageDialog">取消</button>
+            <button class="layui-btn" lay-filter="modelSubmitDemo" lay-submit>保存</button>
+        </div>
+    </form>
+</script>
+
+<!-- 配置 -->
+<script type="text/html" id="configDemo">
+    <form id="configDemoForm" lay-filter="configDemoForm" class="layui-form model-form">
+        <input name="id" type="hidden"/>       
+        <div class="layui-form-item">
+            <label class="layui-form-label layui-form-required">配置</label>
+            <div class="layui-input-block">
+                <input name="datas" placeholder="请输入标签" type="text" class="layui-input" maxlength="20"
+                       lay-verType="tips" lay-verify="required" required/>
+            </div>
+        </div>
+        <div class="layui-form-item text-right ">
+            <button class="layui-btn layui-btn-primary" type="button" ew-event="closePageDialog">取消</button>
+            <button class="layui-btn" lay-filter="configSubmitDemo" lay-submit>保存</button>
+        </div>
+    </form>
+</script>
+
+<!-- js部分 -->
+<script type="text/javascript" src="/assets/libs/layui/layui.js"></script>
+<script type="text/javascript" src="/assets/js/common.js?v=316"></script>
+<script>
+    layui.use(['layer', 'form', 'table', 'util', 'admin','tagsInput','excel'], function () {
+        var $ = layui.jquery;
+        var layer = layui.layer;
+        var form = layui.form;
+        var table = layui.table;
+        var util = layui.util;
+        var admin = layui.admin;
+        var tagsInput = layui.tagsInput;
+        var excel = layui.excel;
+
+        // 无边框样式
+        $('#demoTagsInput2').tagsInput({skin: 'tagsinput-default'});
+
+        // 渲染表格
+        var insTb = table.render({
+            elem: '#tableDemo',
+            url: '/admin/system.extend_field/lists',
+            page: {  layout: ['limit', 'count', 'prev', 'page', 'next', 'skip'] },
+            toolbar: '#toolbarTpl',
+            cellMinWidth: 100,
+            cols: [[
+                {type: 'checkbox', fixed: 'left'},
+                {field:'id', title:'ID', width:80, fixed: 'left', unresize: true},
+                {field: 'name', title: '名称', width: 150},
+                {field: 'tags', title: '标签' ,width:150},                
+                {
+                    title: '类型', templet: function (d) {
+                        var strs = [
+                            '<span class="layui-badge layui-badge-blue">输入框</span>',
+                            '<span class="layui-badge layui-badge-green">下拉</span>',
+                            '<span class="layui-badge layui-badge-yellow">文本</span>',
+                            '<span class="layui-badge layui-badge-red">单选</span>',
+                            '<span class="layui-badge layui-badge-gray">多选</span>',
+							'<span class="layui-badge layui-badge-black">编辑器</span>'
+                        ];
+                        return strs[d.types];
+                    }, align: 'center', width: 100
+                },
+                {
+                    title: '所属模型', templet: function (d) {
+                        var strs = [
+                            '<span class="layui-badge layui-badge-blue">产品</span>',
+                            '<span class="layui-badge layui-badge-green">文章</span>',
+                            '<span class="layui-badge layui-badge-yellow">相册</span>',
+                            '<span class="layui-badge layui-badge-red">招聘</span>',
+                            '<span class="layui-badge layui-badge-gray">下载</span>',
+                        ];
+                        return strs[d.belong_model];
+                    }, align: 'center', width: 100
+                },
+                {field:'is_check', title:'启用状态', templet:'#ischeckTpl'},
+                {
+                    templet:'#configTpl', title: '配置项',  align: 'center'
+                },
+                {
+                    templet: function (d) {
+                        return util.toDateString(d.addtime);
+                    }, title: '创建时间', width: 180, align: 'center'
+                },
+                {align: 'center', toolbar: '#rightbarTpl', title: '操作', minWidth:120}
+            ]]
+        });
+
+        table.on('checkbox(tableDemo)', function(obj){
+            console.log(obj.checked); //当前是否选中状态
+            console.log(obj.data); //选中行的相关数据
+            console.log(obj.type); //如果触发的是全选，则为：all，如果触发的是单选，则为：one
+            console.log(table.checkStatus('table-organization').data); // 获取表格中选中行的数据
+        });
+        
+        form.on('submit(uploadImg)', function(data){
+            loading = layer.load(1, {shade: [0.3, '#fff']});
+            var $ = layui.jquery;
+            var excel = layui.excel;
+            $.ajax({
+                url: '/admin/system.extend_field/listsExcel',
+                dataType: 'json',
+                data: {                   
+                },
+                success: function(res) {
+                    layer.close(loading);
+                    res.data.unshift({id: 'ID',name: '名称',tags:'标签',types:'类型',belong_model:'所属模型',is_check:'状态',addtime:'添加时间',datas:'配置内容'});
+                    excel.exportExcel({
+                        sheet1: res.data
+                    }, '扩展字段.xlsx', 'xlsx');
+                },
+                error:function(res){
+                    layer.close(loading);
+                    layer.msg(res.msg);
+                }
+            });
+        });
+
+        // 搜索
+        form.on('submit(formSubSearchUser)', function (data) {
+            insTb.reload({where: data.field}, 'data');
+        });
+
+        //监听头部工具栏事件
+        table.on('toolbar(tableDemo)', function(obj){
+            var checkRows = table.checkStatus('tableDemo');
+            switch(obj.event){
+                case 'btnAdd':
+                    showEditModel();
+                    break;
+                case 'btnDel':
+                    var num = checkRows.data.length;
+                    if(num>0){
+                        var ids = checkRows.data.map(function (d) {
+                            return d.id;
+                        });
+                        doDel(ids.join(','));console.log(ids);//ids是一个数组
+                    }else{
+                        layer.msg('至少选择一条数据',{icon:2, time:1000 });
+                    }                    
+                    break;
+                case 'openExcel':
+                    openExcel();
+                    break;     
+            };
+        });
+
+        // 工具条点击事件
+        table.on('tool(tableDemo)', function (obj) {
+            var data = obj.data;
+            var layEvent = obj.event;
+            if (layEvent === 'edit') { // 修改
+                showEditModel(data);
+            } else if (layEvent === 'del') { // 删除
+            console.log('删除11',data)
+                doDel(data.id, data.nickName);
+            } else if (layEvent === 'btnConfig') { // 重置密码
+                // alert('111')
+                showConfig(data)
+            }
+        });
+
+        //显示配置
+        function showConfig(data) {
+            admin.open({
+                type: 1,
+                title: '配置',
+                content: $('#configDemo').html(),
+                success: function (layero, dIndex) {
+                    $(layero).children('.layui-layer-content').css('overflow', 'visible');
+                    var url = '/admin/system.extend_field/ajaxChange';
+                    form.val('configDemoForm', data );
+                    // 表单提交事件
+                    form.on('submit(configSubmitDemo)', function (data) {
+                        console.log(data)
+                        layer.load(2);
+                        $.get(url, data.field, function (res) {
+                            layer.closeAll('loading');
+                            if (res.status == 1) {
+                                layer.close(dIndex);
+                                layer.msg(res.msg, {icon: 1});
+                                insTb.reload({}, 'data');
+                            } else {
+                                layer.msg(res.msg, {icon: 2});
+                            }
+                        }, 'json');
+                        return false;
+                    });
+                     // 标签输入框
+                     $('#configDemoForm input[name="datas"]').tagsInput({
+                        skin: 'tagsinput-default',
+                        // autocomplete_url: data.datas
+                    });
+                }
+            });
+        }
+
+        // 显示表单弹窗
+        function showEditModel(mDemo) {
+            admin.open({
+                type: 1,
+                title: (mDemo ? '修改' : '添加'),
+                content: $('#modelDemo').html(),
+                success: function (layero, dIndex) {
+                    $(layero).children('.layui-layer-content').css('overflow', 'visible');
+                    var url = mDemo ? '/admin/system.extend_field/edit' : '/admin/system.extend_field/add';
+                    // 回显数据
+
+                    console.log(mDemo)
+                    mDemo && (mDemo.is_check = mDemo.is_check);
+                    form.val('modelDemoForm', mDemo);
+                    // 表单提交事件
+                    form.on('submit(modelSubmitDemo)', function (data) {
+                        console.log(data)
+                        layer.load(2);
+                        $.post(url, data.field, function (res) {
+                            layer.closeAll('loading');
+                            if (res.status == 1) {
+                                layer.close(dIndex);
+                                layer.msg(res.msg, {icon: 1});
+                                insTb.reload({}, 'data');
+                            } else {
+                                layer.msg(res.msg, {icon: 2});
+                            }
+                        }, 'json');
+                        return false;
+                    });
+                }
+            });
+        }
+
+        // 删除
+        function doDel(ids, nickName) {
+            layer.confirm('确定要删除吗？', {
+                skin: 'layui-layer-admin',
+                shade: .1
+            }, function (i) {
+                layer.close(i);
+                layer.load(2);
+                $.get('/admin/system.extend_field/delete', {
+                    id: ids
+                }, function (res) {
+                    layer.closeAll('loading');
+                    if (res.status == 1) {
+                        layer.msg(res.msg, {icon: 1});
+                        insTb.reload({}, 'data');
+                    } else {
+                        layer.msg(res.msg, {icon: 2});
+                    }
+                }, 'json');
+            });
+        }
+
+        // 修改状态
+        form.on('switch(ckStateUser)', function (obj) {
+            console.log(obj)
+            layer.load(2);
+            $.get('/admin/system.extend_field/ajaxChange', {
+                id: obj.elem.value,
+                is_check: obj.elem.checked ? 1 : 0
+            }, function (res) {
+                layer.closeAll('loading');
+                if (res.status == 1) {
+                    layer.msg(res.msg, {icon: 1});
+                } else {
+                    layer.msg(res.msg, {icon: 2});
+                    $(obj.elem).prop('checked', !obj.elem.checked);
+                    form.render('checkbox');
+                }
+            }, 'json');
+        });
+
+        // 重置密码
+        function resetPsw(ids, nickName) {
+            layer.confirm('确定要重置“' + nickName + '”的登录密码吗？', {
+                skin: 'layui-layer-admin',
+                shade: .1
+            }, function (i) {
+                layer.close(i);
+                layer.load(2);
+                $.get('../../json/ok.json', {
+                    ids: ids
+                }, function (res) {
+                    layer.closeAll('loading');
+                    if (res.code == 200) {
+                        layer.msg(res.msg, {icon: 1});
+                    } else {
+                        layer.msg(res.msg, {icon: 2});
+                    }
+                }, 'json');
+            });
+        }
+
+    function  openExcel(){        
+        $("#LAY-excel-import-excel").click(); 
+        $('#LAY-excel-import-excel').on('change',function(e){         
+            var files = e.target.files;
+            layer.load(2);
+            console.log('start load')
+            uploadExcel(files); 
+            $("#LAY-excel-import-excel").replaceWith($("#LAY-excel-import-excel").clone(true));
+        })
+    }  
+    
+    /**
+    * 上传excel的处理函数，传入文件对象数组
+    * @param  {[type]} files [description]
+    * @return {[type]}       [description]
+    */
+    function uploadExcel(files) {
+        try {
+            excel.importExcel(files, {
+            // 读取数据的同时梳理数据
+            fields: {
+                'name': 'A'
+                ,'tags': 'B'
+                ,'types': 'C'
+                ,'belong_model': 'D'
+                ,'is_check': 'E'
+                ,'addtime': 'F'
+                ,'datas': 'G'
+            }
+            }, function(data) {
+            // 还可以再进行数据梳理
+            /*
+            data = excel.filterImportData(data, {
+                'id': 'A'
+                ,'username': 'B'
+                ,'experience': 'C'
+                ,'sex': 'D'
+                ,'score': 'E'
+                ,'city': 'F'
+                ,'classify': 'G'
+                ,'wealth': 'H'
+                ,'sign': 'I'
+            });
+            */
+            // 如果不需要展示直接上传，可以再次 $.ajax() 将JSON数据通过 JSON.stringify() 处理后传递到后端即可
+            $.post({
+                url: '/admin/system.extend_field/ajaxAddMulti'
+                , data:{data:data}
+                , dataType: 'json'
+                , success: function (res) {
+                    if(res.status == 1){
+                        layer.closeAll('loading');
+                        layer.msg('导入成功', {icon: 1});
+                        insTb.reload({}, 'data');
+                    }
+                }
+            })
+            });
+        } catch (e) {
+            layer.alert(e.message);
+        }
+    };
+
+    });
+
+
+
+</script>
+
+</body>
+</html>
+
+<style type="text/css">
+.layui-form-fixed-footer:before {content:''; display: block; height: 76px;}
+.layui-form-fixed-footer .layui-form-btn {position: fixed;left: 0;right:0;bottom: 0;background: #fff;padding: 10px 0;border-top: 1px solid #eee;box-shadow: 0px -5px 10px rgba(0,0,0,.05);}
+.pc-max-width50 {max-width: 50%;}
+
+@media only screen and (min-width: 320px) and (max-width: 640px){
+	.pc-max-width50 {max-width: 100%;}
+}
+</style>

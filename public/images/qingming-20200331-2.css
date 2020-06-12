@@ -1,0 +1,76 @@
+﻿/*公用样式部分*/
+html {width: 100%;overflow-x: hidden;}
+body {line-height: 2;background:#fff;color: #333;min-width: 1000px;}
+*{margin:0;padding:0}
+a{text-decoration:none}
+em,i{font-style:normal}
+ul,ol,li{list-style:none}
+img{border:0 none;}
+.margin-top10 {margin-top: 10px!important;}
+.margin-top15 {margin-top: 15px!important;}
+.margin-top20 {margin-top: 20px!important;}
+.margin-top25 {margin-top: 25px!important;}
+.margin-top30 {margin-top: 30px!important;}
+.margin-top40 {margin-top: 40px!important;}
+.margin-top50 {margin-top: 50px!important;}
+.margin-top60 {margin-top: 60px!important;}
+.margin-top70 {margin-top: 70px!important;}
+.margin-top80 {margin-top: 80px!important;}
+.float-left{float:left!important;}
+.float-right{float:right!important;}
+.clear{clear:both;overflow:hidden;zoom:1;*zoom:1}
+.fl{float:left;display:inline}
+.fr{float:right;display:inline}
+.w1000{margin:0 auto;width:1000px;}
+.clearfix{*zoom:1;}
+.clearfix:after {display:block; height:0; content:""; clear:both}
+.body{font-size:14px;font-family:"微软雅黑"}
+.align-center{text-align:center;}
+
+/*本页样式*/
+.banner{background:url(qingming-20200331-banner.jpg) top center no-repeat;height:720px;}
+/*main1*/
+.main1-l{width:220px;float:left;}
+.main1-r{width:220px;float:right;}
+.main1-left{width:460px;float:left;}
+.main1-img{height:160px;}
+.main1-left h3{color:#cc0000;font-size:42px;font-family:"黑体";}
+.main1-right{float:right;width:510px;color:#1E713A;font-family:"黑体";font-size:20px;}
+
+/*main2*/
+.main2 .main2-left{width:430px;float:left;background:#E5F0EC;padding:30px 15px;}
+.main2Form1 label{vertical-align:top;width:66px;float:left;}
+.main2Form1 .main2Input{border:none;padding:2px 5px;height:32px;width:350px;}
+.main2Form1 textarea{border:none;padding:2px 5px;width:350px;height:110px;}
+.main2Form1 button{background:#1E713A;color:#fff;border:none;width:50%;line-height:36px;}
+.main2-right{width:510px;float:right;}
+.main2Ri-tit{border-bottom:2px solid #eee;}
+.main2Ri-tit a{float:right;color:#777;}
+.main2Ri-tit span{display:inline-block;border-bottom:2px solid #1E713A;color:#1E713A;font-size:24px;font-weight:bold;padding:0 10px;}
+.main2Ri-list{height:286px;overflow:hidden;}
+.main2Ri-list li{background:#f9f9f9;padding:10px;margin-top:10px;}
+.main2Ri-list li em{color:red;}
+
+/*main3*/
+.index-title{color:#1E713A;font-family:"黑体";font-size:32px;border-bottom:1px solid #eee;font-weight:bold;}
+.pic-banner{position: relative;width:540px;height:380px;background:#e2e2e2;box-sizing: border-box;}
+.pic-banner .bd li{height:380px;width:540px;overflow: hidden;}
+.pic-banner .bd li a{display:block;height:380px;width:540px;overflow: hidden;}
+.pic-banner .bd li a>img{width:100%;height:100%;}
+.pic-banner .bd li span{display:block;position: absolute;bottom: 0;left: 0px;height: 50px;line-height: 50px;background: rgba(0,0,0,.5);z-index: 1;color: #FFF;font-size: 16px;padding:0 10px;box-sizing:border-box ;width:670px;}
+.pic-banner .hd {position: absolute;z-index: 1;right: 15px;bottom: 9px;text-align: center;}
+.pic-banner .hd li {display: inline-block;width:12px;height:12px;background:#fff;color:#333;font-size:12px;overflow: hidden;line-height:14px;margin: 0px 3px;cursor: pointer;border-radius:50px;}
+.pic-banner .hd li.on {background:#ff711d;color:#fff;}
+.main1-rt{width:430px;}
+.main1-rt ul li{border-bottom: 1px dashed #ccc;font-size:16px;background:url(ljhr-20200304-img39.png) left center no-repeat;padding:15px 0;}
+.main1-rt ul li a{color:#333;display:block;text-overflow: ellipsis;overflow: hidden;white-space: nowrap;line-height:42px;}
+.main1-rt ul li:hover a{color:#1E713A;}
+/*main4*/
+.main4List li{float:left;width:238px;margin:20px 6px 0 6px;}
+.main4List li a{display:block;overflow:hidden;}
+.main4List li a img{height:230px;width:100%;}
+.main4List li a h3{color:#1E713A;font-size:14px;height:50px;line-height:24px;}
+
+
+.footer{border-top:2px solid #1E713A;padding:15px 0;}
+.footer p{font-size:18px;line-height: 30px;text-align: center;}

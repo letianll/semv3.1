@@ -1,0 +1,312 @@
+<?php /*a:2:{s:89:"D:\webroot\semclientcmsv3.1\application\admin\view\sem\keyword_category\config_image.html";i:1591600677;s:62:"D:\webroot\semclientcmsv3.1\application\admin\view\layout.html";i:1584695012;}*/ ?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link href="/assets/images/favicon.ico" rel="icon">
+<title>希望科技-SEM3.2系统 </title>
+<link rel="stylesheet" href="/assets/libs/layui/css/layui.css"/>
+<link rel="stylesheet" href="/assets/module/admin.css?v=316"/>
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+<![endif]-->
+</head>
+
+
+<style type="text/css">.layui-form-required:before {font-size: 12px;}</style>
+<style>
+    /*后台多图异步远程上传接口样式*/
+    .layui-upload-priview {width:100%;margin: 10px 0px 0px 0px;}
+    .layui-upload-priview .item_img img{ width:100%; height:88px;border-radius: 5px;background-color: #00bcd4;box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 20px rgba(0, 0, 0, 0.1) inset;}	
+    .layui-upload-priview li{position:relative;width:90px;float:left; margin-right:5px;background-color:#f5f5f5;overflow: hidden;}
+    .layui-upload-priview li .layui-input { display: initial; }
+    .layui-upload-priview li .operate{display: none;}
+    .layui-upload-priview li .toleft{opacity: 0.8;font-weight: 300; position:absolute;top:36px;left:0px;background-color: #FFFFFF;color:#ff0000;line-height:21px;height:20px;cursor:pointer;}
+    .layui-upload-priview li .toright{opacity: 0.8;font-weight: 300; position:absolute;top:36px;right:0px;background-color: #FFFFFF;color:#ff0000;line-height:21px;height:20px;cursor:pointer;}
+    .layui-upload-priview li .close{opacity: 0.8;font-weight: 300;position:absolute;top:0px; right:0px;cursor:pointer;background-color: #FFFFFF;color:#ff0000;line-height:20px;height:20px;width:20px;border-radius:50%;text-align:center;font-size:18px;}
+    .layui-upload-priview li:hover .operate{ display: block;}
+    .layui-upload-priview:after {display: block;content:'';clear: both;}
+    .layui-upload-priview li input.imgalt {width:100%;height: 20px;border:none;border-top:1px solid #ddd;box-sizing: border-box;font-size: 12px;} 
+
+    .square{
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-bottom: 100%; /* padding百分比是相对父元素宽度计算的 */
+  margin-bottom: 30px;
+}
+.square-inner{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /* 铺满父元素容器，这时候宽高就始终相等了 */
+}
+.grid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 相当于 1fr 1fr 1fr */
+  grid-template-rows: repeat(3, 1fr); /* fr单位可以将容器分为几等份 */
+  grid-gap: 1%; /* grid-column-gap 和 grid-row-gap的简写 */
+  grid-auto-flow: row;
+  
+}
+.grid>div{
+  color: #595959;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 3;
+  text-align: center;
+  /* background: linear-gradient(to bottom, #f5f6f6 0%,#dbdce2 21%,#b8bac6 49%,#dddfe3 80%,#f5f6f6 100%); */
+  background-color:#ffffff ;
+  border: 1px solid #E1E1E1;
+}
+.blue{background-color: #1E9FFF!important;}
+</style>
+<body>
+<link rel="stylesheet" href="/static/plug/selectpage/selectpage.css"/>
+<!-- 页面加载loading -->
+<div class="page-loading">
+    <div class="ball-loader">
+        <span></span><span></span><span></span><span></span>
+    </div>
+</div>
+
+<!-- 正文开始 -->
+<div class="layui-fluid">
+    <div class="layui-card">
+        <div class="layui-card-body">
+            <!-- 添加和修改公用的表单 -->
+            <form id="categoryEditForm" lay-filter="categoryEditForm" class="layui-form" autocomplete="off">
+                <div class="layui-tab layui-tab-brief">
+                   <input type="hidden" name="id" value="<?php echo htmlentities($details['id']); ?>">
+                    <div class="layui-tab-content">
+                        <div class="layui-tab-item layui-show">
+                            <div class="layui-form-item">
+                                <div class="layui-block">
+                                    <label class="layui-form-label">配置图片</label>
+                                    <div class="layui-input-block">
+                                       <div class="pic-more">
+                                        <ul id="" class="layui-upload-priview upload-file-list image_images">
+                                            <?php if($details['images'] != ''): if(is_array($details['images']) || $details['images'] instanceof \think\Collection || $details['images'] instanceof \think\Paginator): if( count($details['images'])==0 ) : echo "" ;else: foreach($details['images'] as $key=>$data): ?>
+                                                    <li class="item_img">
+                                                        <div class="operate">
+                                                            <i class="toleft layui-icon layui-icon-left" title="左移"></i>
+                                                            <i class="toright layui-icon layui-icon-right" title="右移"></i>
+                                                            <i class="close layui-icon layui-icon-delete" title="删除"></i>
+                                                        </div>
+                                                        <img src="<?php echo htmlentities($data); ?>" class="img">
+                                                        <input type="hidden" name="images[]" value="<?php echo htmlentities($data); ?>" />
+                                                    </li>
+                                                <?php endforeach; endif; else: echo "" ;endif; ?>
+                                            <?php endif; ?>
+                                        </ul>
+                                       </div>
+                                       <button type="button" class="layui-btn pull-left upload_images" >选择图片</button>
+                                    </div>
+                                </div>
+                            </div>	 
+                        </div>
+                    </div>
+                </div>
+
+                <div class="layui-form-fixed-footer">
+                    <div class="layui-form-btn text-center">
+                        <button class="layui-btn" lay-filter="categoryEditSubmit" lay-submit>保存</button>
+                        <button class="layui-btn layui-btn-primary" type="button" ew-event="closeThisTabs">取消</button>                    </div>
+                </div>
+            </form>
+            <!-- 公用表单结束 -->
+        </div>
+    </div>
+</div>
+
+
+<!-- js部分 -->
+<script type="text/javascript" src="../../assets/libs/layui/layui.js"></script>
+<script type="text/javascript" src="../../assets/js/common.js?v=317"></script>
+<script src="/assets/libs/jquery/jquery-3.2.1.min.js"></script>
+<script src="/static/plug/selectpage/selectpage.js"></script>
+
+<script>
+layui.use(['layer', 'form', 'admin', 'element', 'laydate', 'fileChoose'], function () {
+    var $ = layui.jquery;
+    var layer = layui.layer;
+    var form = layui.form;
+    var admin = layui.admin;
+    var element = layui.element;
+    var laydate = layui.laydate;
+    var fileChoose = layui.fileChoose;
+
+
+    // 表单提交事件
+    form.on('submit(categoryEditSubmit)', function (data) {
+        console.log(data);
+        var loadIndex = layer.load(2);
+        $.post('<?php echo url("admin/sem.keyword_category/configImage"); ?>', data.field, function (res) {
+            console.log(res);
+            layer.close(loadIndex);
+            if (res.status == '1') {
+                layer.msg(res.msg, {icon: 1,time:1000}, function(){
+                    admin.closeThisTabs();
+                });
+
+            } else {
+                layer.msg(res.msg, {icon: 2,time:2000});
+            }
+        }, 'json');
+        return false;
+    });
+
+    
+
+});
+
+// 文件弹窗选择
+$('#file-btn-choose').click(function () {
+        fileChoose.open({
+            fileUrl: '',
+            listUrl: '<?php echo url("admin/files/lists",["filetype"=>0]); ?>',
+            num: 1,
+            onChoose: function (urls) {
+                var fileUrls = [], fileUrl = '';
+                for (var i = 0; i <= urls.length-1; i++) {
+                    // console.log(urls[i]['url']);
+                    fileUrls[i] = urls[i]['url'];
+                }
+                fileUrl = fileUrls.join(',');
+                console.log(fileUrl);
+                $('#cateimg').val(fileUrl);
+                layer.msg('操作成功！', {icon: 1,time:1000});
+
+            }
+        });
+    });
+
+
+
+    //选择图片
+    function changeIMG(index,pic){	
+        console.log(index,pic)
+        var images=pic
+        var maxNum = 100;
+        var currNum = $('.image_'+index).children().length;		
+        if(currNum>=maxNum){
+            return layer.msg('最多只能使用 '+ maxNum +' 张');
+        }
+        if(currNum<maxNum){
+            canInserNum = maxNum-currNum
+            canInserNum = images.length<=canInserNum?images.length:canInserNum
+        }			
+            console.log(canInserNum)
+        if(canInserNum>0){
+            html=''
+            for(var ii=0;ii<(canInserNum);ii++){
+                html+='<li class="item_img"><div class="operate"><i class="toleft layui-icon layui-icon-left" title="左移"></i><i class="toright layui-icon layui-icon-right" title="右移"></i><i class="close layui-icon layui-icon-delete" title="删除"></i></div><img src="' + images[ii] + '" class="img"><input type="hidden" name="'+index+'[]" value="' + images[ii] + '" /></li>'
+            }
+            $('.image_'+index).append(html);				
+        }else{
+                return layer.msg('最多只能使用 '+ maxNum +' 张');
+        }
+    }
+
+    function createFrame(title,src,opt){
+        opt === undefined && (opt = {});
+        return layer.open({
+            type: 2,
+            title:title,
+            area: [(opt.w || 800)+'px', (opt.h || 550)+'px'],
+            fixed: false, //不固定
+            maxmin: true,
+            moveOut:false,//true  可以拖出窗外  false 只能在窗内拖
+            anim:5,//出场动画 isOutAnim bool 关闭动画
+            offset:'auto',//['100px','100px'],//'auto',//初始位置  ['100px','100px'] t[ 上 左]
+            shade:0,//遮罩
+            resize:true,//是否允许拉伸
+            content: src,//内容
+            move:'.layui-layer-title'
+        });
+    }
+
+    /**
+    * 上传图片
+    * */
+    $('.upload_images').on('click',function (e) {
+        createFrame('选择图片','/admin/content.article/image?fodder=images');
+    })
+
+    $(".countNum").click(function(){
+        var loadIndex = layer.load(2);
+        var params={}
+        params.city = $("input[name='citys']").val();
+        params.main_keywords = $("#main_keywords").val();
+        params.after_keywords =$("#after_keywords").val();
+        if(params.city=='' || params.city==undefined || params.city ==null ||
+            params.main_keywords=='' || params.main_keywords==undefined || params.main_keywords ==null ||
+            params.after_keywords=='' || params.after_keywords==undefined || params.after_keywords ==null
+        ){
+            layer.close(loadIndex);
+            layer.msg('请填写城市，主词，后缀词', {icon: 2,time:2000});
+            return 0
+        }       
+        console.log(params)
+        $.post('<?php echo url("admin/sem.keyword_category/getKeywords"); ?>', params, function (res) {
+            console.log(res);
+            layer.close(loadIndex);
+            if (res.status == '1') {
+                layer.msg(res.msg, {icon: 1,time:1000}, function(){
+                });
+
+            } else {
+                layer.msg(res.msg, {icon: 2,time:2000});
+            }
+        }, 'json');
+    })
+
+	function showImages(res){
+		let resImages={}
+		imgaes = resImages.data
+		if(imgaes.length>0){
+			html=''
+			for(var ii=0;ii<imgaes.length;ii++){
+				html+='<li class="item_img"><div class="operate"><i class="toleft layui-icon layui-icon-left" title="左移"></i><i class="toright layui-icon layui-icon-right" title="右移"></i><i class="close layui-icon layui-icon-delete" title="删除"></i></div><img src="' + imgaes[ii].src + '" class="img"><input type="hidden" name="img_thumb[]" value="' + imgaes[ii].src + '" /><input type="hidden" name="img_src[]" value="' + imgaes[ii].src + '" /></li>'
+			}
+			$('#layui-upload-priview').append(html);
+		}
+	}
+	
+	$("#btn-layui-upload").click(function(){
+		showImages()
+	})
+	//点击多图上传的X,删除当前的图片    
+	$("body").on("click",".close",function(){
+		$(this).closest("li").remove();
+	});
+	//多图上传点击<>左右移动图片
+	$("body").on("click",".upload-file-list li .toleft",function(){
+		var li_index=$(this).closest("li").index();
+		if(li_index>=1){
+			$(this).closest("li").insertBefore($(this).closest("ul").find("li").eq(Number(li_index)-1));
+		}
+	});
+	$("body").on("click",".upload-file-list li .toright",function(){
+		var li_index=$(this).closest("li").index();
+		$(this).closest("li").insertAfter($(this).closest("ul").find("li").eq(Number(li_index)+1));
+	});
+
+
+</script>
+</body>
+</html>
+
+<style type="text/css">
+.layui-form-fixed-footer:before {content:''; display: block; height: 76px;}
+.layui-form-fixed-footer .layui-form-btn {position: fixed;left: 0;right:0;bottom: 0;background: #fff;padding: 10px 0;border-top: 1px solid #eee;box-shadow: 0px -5px 10px rgba(0,0,0,.05);}
+.pc-max-width50 {max-width: 50%;}
+
+@media only screen and (min-width: 320px) and (max-width: 640px){
+	.pc-max-width50 {max-width: 100%;}
+}
+</style>
